@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Portfolio</title>
+  <link rel="icon" type="image/jpg" href="img/avatarARA.jpg">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <div class="grid-container">
+    <div class="menu">
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="html/Trabajos.html">Trabajos</a>
+        <a href="html/contacto.html">Contacto</a>
+        <a href="html/sobremi.html">Sobre mi</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <script src="js/menu.js"></script>
+
+    </div>
+
+    <div class="header">
+      <div class="divitem1">
+        <a target="_blank" href="https://www.sololearn.com/profile/20814628"><img src="img/solo.png"
+            alt="sololearn"></a>
+        <a target="_blank" href="https://github.com/AraSancor"><img src="img/gihub.png" alt="Git"></a>
+
+        <a target="_blank" href="https://www.linkedin.com/in/arasantcord/"><img src="img/linke.png" alt="linkedin"></a>
+
+        <a href="https://www.youtube.com/@desarrolloappsantcord" target="_blank"><img src="./img/YouTube.png"
+            alt="youtube"></a>
+
+      </div>
+
+
+      <div class="divitem2">
+
+        <div class="flex">
+          <div>
+            <a target="_blank" href="https://arasancor.github.io/Porfolio-Ara/html/sobremi.html"><img
+                src="./img/avatarARA.jpg" alt="Ara"></a>
+          </div>
+
+          <div>
+            <h1>Yessyca</h1>
+            <h2>Front-end Developer</h2>
+            <div>
+              <a class="item1a" href="./html/indexCV.html" target="_blank">Currículum</a>
+              <a class="item1a" href="https://arasancor.github.io/AraBlog/" target="_blank">Blog</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="aside">
+
+      <div>
+        <p>"Mi objetivo profesional es continuar con mi formación tecnológica al nivel
+          competitivo requerido y establecer una relación laboral sólida en una empresa
+          dedicada al mundo tecnológico".</p>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <div class="form">
+
+
+      <div class="divform">
+        <form action="mailto:yessworkinf@gmail.com">
+          <label for="nombre">Nombre:</label>
+          <input id="nombre" name="nombre" placeholder="Nombre completo">
+          <label for="email">Email:</label>
+          <input id="email" name="email" type="email" placeholder="ejemplo@email.com">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Dejame tu mensaje"></textarea>
+          <input id="submit" name="submit" type="submit" value="Enviar">
+        </form>
+      </div>
+<a href="./html/lpd.html" target="_blank" >Ley PDD</a>
+    </div>
+
+    <div class="footer">
+
+
+      <div class="divitem4">
+        <div>
+          <p>Contacto: yessworkinf@gmail.com</p>
+        </div>
+        <div><a target="_blank" href="https://github.com/AraSancor"><img src="img/gihub.png" alt=""></a></div>
+        <div> <a target="_blank" href="https://www.linkedin.com/in/arasantcord/"><img src="img/linke.png" alt=""></a>
+        </div>
+        <div><a target="_blank" href="https://www.sololearn.com/profile/20814628"><img src="img/solo.png" alt=""></a>
+        </div>
+      </div>
+      <hr>
+      <div class="mod">
+
+        <p>Fecha de modificación:</p>
+        <p id="demo"></p>
+        <script>
+          const date = new Date(document.lastModified);
+          document.getElementById("demo").innerHTML = date;
+        </script>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

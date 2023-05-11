@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+
+    text-align: justify;
+    margin: 2% 5%;
+    font-family: lato, sans-serif;
+
+}
+
+h1, h2, p{
+    font-size: 1.5vw;
+    padding: 2%;
+}
+a{
+    padding: 1%;
+    background-color: black;
+    color: white;
+    font-size: 3vw;
+}
+a:hover{
+    color: blue;
+}
