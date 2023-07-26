@@ -16,7 +16,7 @@
 
 body,
 html {
-  background-image: url('../img/keyboard-5017973_1280.jpg');
+  background-image: url('../img/technology1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed; 
   background-size: cover;
@@ -174,8 +174,8 @@ html {
   }
 
   .head {
-
-    font-size: 2vw;
+    color: var(--textdos);
+    font-size: 2rem;
     padding: 1% 1% 1% 33%;
     grid-gap: 5%;
 
