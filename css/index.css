@@ -206,10 +206,11 @@ html {
     text-align: center;
     font-size: 2rem;
     padding: 3%;
-    width: 30vw;
+    width: auto;
     margin: 3%;
   }
 
+ 
   .aside {
     width: 95wv;
   }
