@@ -17,6 +17,7 @@ html {
   color: var(--color-uno);
   margin: 0;
   font-family: Lato, sans-serif;
+  text-align: justify;
 }
 
 .grid-container {
