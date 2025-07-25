@@ -62,7 +62,7 @@ html {
         "footer ";
 }
 
-@media only screen and (min-width: 150px) and (max-width: 768px) {
+@media only screen and (min-width: 1px) and (max-width: 768px) {
     .header {
 
         padding: 2% 3% 3% 50%;
@@ -195,7 +195,7 @@ html {
    
 }
 
-@media only screen and (min-width: 1281px) and (max-width: 4000px) {
+@media only screen and (min-width: 1281px) {
 
     .date{
         text-align: center;
