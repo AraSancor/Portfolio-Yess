@@ -51,7 +51,7 @@ h1 {
 }
 
 
-@media only screen and (min-width: 150px) and (max-width: 1200px) {
+@media only screen and (min-width: 1px) and (max-width: 1200px) {
 
   .grid-container {
     display: grid;
@@ -149,7 +149,7 @@ h1 {
 }
 
 
-@media only screen and (min-width: 1201px) and (max-width: 3800px) {
+@media only screen and (min-width: 1201px)  {
 
   body {
 
