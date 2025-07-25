@@ -1,8 +1,8 @@
 :root {
-  --color-uno: #222222;
-  --color-dos: #434242;
-  --color-tres: #22A39F;
-  --color-cuatro: #F3EFE0;
+  --color-uno: #323643;
+  --color-dos: #606470;
+  --color-tres: #93DEFF;
+  --color-cuatro: #F7F7F7;
   --textuno: #000;
   --textdos: #fff;
 }
@@ -14,7 +14,7 @@
 
 body,
 html {
-  background-image: url("../img/computer-5302812_1280.jpg");
+  background-image: url("../img/fon33.jpg");
   background-repeat: no-repeat, repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -464,10 +464,10 @@ html {
   }
 
   .aside p {
-    padding: 10%;
+    padding: 8%;
     font-size: 1.5rem;
     font-family: Comic Sans MS;
-    color: var(--textdos);
+    color: var(--color-uno);
   }
 
   .date {
