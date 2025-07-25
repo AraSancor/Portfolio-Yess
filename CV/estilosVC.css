@@ -1,16 +1,16 @@
 :root {
 
-  --color-uno: #060608;
-  --color-dos: #27374D;
-  --color-tres: #A696C8;
-  --color-cuatro: #FAD3CF;
+  --color-uno: #1D242B;
+  --color-dos: #0077C0;
+  --color-tres: #C7EEFF;
+  --color-cuatro: #FAFAFA;
   --textuno: #000;
   --textdos: #fff;
 }
 
 body,
 html {
-  background-image: url('../img/cactusss33.jpg');
+  background-image: url('../img/111.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
