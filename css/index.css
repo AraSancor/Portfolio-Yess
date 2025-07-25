@@ -37,7 +37,7 @@ html {
 .header img {
 
   border-radius: 50%;
-  
+
 
 }
 
@@ -150,7 +150,7 @@ html {
 
 /* fin menu*/
 
-@media only screen and (min-width: 150px) and (max-width: 776px) {
+@media only screen and (min-width: 150px) and (max-width: 768px) {
 
   .grid-container {
     display: grid;
@@ -210,7 +210,7 @@ html {
     margin: 3%;
   }
 
- 
+
   .aside {
     width: 95wv;
   }
@@ -272,7 +272,7 @@ html {
 
 }
 
-@media only screen and (min-width: 777px) and (max-width: 1200px) {
+@media only screen and (min-width: 769px) and (max-width: 1280px) {
 
   .grid-container {
     display: grid;
@@ -393,7 +393,7 @@ html {
 
 }
 
-@media only screen and (min-width: 1201px) and (max-width: 3800px) {
+@media only screen and (min-width: 1281px) and (max-width: 3800px) {
   .grid-container {
     display: grid;
     grid-template-areas:
@@ -409,9 +409,11 @@ html {
     margin-left: 5%;
     font-size: 6rem;
   }
-.flexbox{
-  display: flex;
-}
+
+  .flexbox {
+    display: flex;
+  }
+
   .header h2 {
     margin-left: 10%;
     font-size: 2rem;
