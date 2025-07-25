@@ -35,9 +35,9 @@ html {
 }
 
 .header img {
-  padding: 1%;
-  border-radius: 50px;
-  background-color: var(--color-tres);
+
+  border-radius: 50%;
+  
 
 }
 
@@ -216,7 +216,7 @@ html {
   }
 
   .aside p {
-    color: var(--textdos);
+    color: var(--color-uno);
     padding: 6%;
     text-align: justify;
     font-size: 1.2rem;
@@ -337,7 +337,7 @@ html {
   }
 
   .aside p {
-    color: var(--textdos);
+    color: var(--color-uno);
     padding: 6%;
     text-align: justify;
     font-size: 2rem;
