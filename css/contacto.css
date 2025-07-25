@@ -1,9 +1,9 @@
 :root {
     --color-cinco: #000;
-    --color-uno: #212121;
-    --color-dos: #6D9886;
-    --color-tres: #D9CAB3;
-    --color-cuatro: #F6F6F6;
+    --color-uno: #6892D5;
+    --color-dos: #79D1C3;
+    --color-tres: #C9FDD7;
+    --color-cuatro: #F8FCFB;
     --textuno: #000;
     --textdos: #fff;
 }
@@ -17,7 +17,7 @@ body,
 html {
   
     font-family: sans-serif;
-    background-image: url('../img/flo.jpg');
+    background-image: url('../img/fondo11.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
     background-size: cover;
@@ -62,7 +62,7 @@ html {
         "footer ";
 }
 
-@media only screen and (min-width: 150px) and (max-width: 1200px) {
+@media only screen and (min-width: 150px) and (max-width: 768px) {
     .header {
 
         padding: 2% 3% 3% 50%;
@@ -84,7 +84,73 @@ html {
         
         padding: 8%;
         font-size: 3vw;
-        color: var(--color-tres);
+           color: var(--color-uno);
+      }
+    .footer {
+        padding: 2% 10% 3% 20%;
+    }
+
+    iframe {
+        margin: 5%;
+        width: 90vw;
+        height: 60vw;
+    }
+
+    form {
+        margin: 5%;
+        width: 88vw;
+        height: 68vw;
+    opacity: 0.8;
+        text-align: center;
+    }
+
+    input,
+    textarea {
+        width: 80vw;
+        height: 5vw;
+        border: 2px solid var(--color-dos);
+        padding: 1%;
+        margin-top: 2%;
+        font-size: 3vw;
+
+    }
+
+    textarea {
+        height: 15vw;
+
+    }
+
+    #submit {
+        width: 20vw;
+        height: 10vw;
+        margin-top: 2%;
+    }
+
+   
+}
+@media only screen and (min-width: 769px) and (max-width: 1280px) {
+    .header {
+
+        padding: 2% 3% 3% 50%;
+        grid-gap: 8%;
+    }
+
+    .header img {
+        width: 8vw;
+        padding: 2%;
+
+    }
+    .date{
+        text-align: right;
+        margin: 2% 2% 1% 5%;
+        font-size: 3vw;
+        color: var(--color-cuatro);
+      }
+      .date1{
+        
+        padding: 8%;
+        font-size: 3vw;
+           color: var(--color-uno);
       }
     .footer {
         padding: 2% 10% 3% 20%;
@@ -129,8 +195,7 @@ html {
    
 }
 
-
-@media only screen and (min-width: 1201px) and (max-width: 3800px) {
+@media only screen and (min-width: 1281px) and (max-width: 4000px) {
 
     .date{
         text-align: center;

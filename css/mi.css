@@ -1,9 +1,9 @@
 :root {
   --color-cinco: #000;
-  --color-uno: #222831;
-  --color-dos: #393E46;
-  --color-tres: #2db895;
-  --color-cuatro: #A3F7BF;
+  --color-uno: #789DBC;
+  --color-dos: #FFE3E3;
+  --color-tres: #C9E9D2;
+  --color-cuatro: #FEF9F2;
   --textuno: #000;
   --textdos: #fff;
 }
@@ -15,7 +15,7 @@
 
 body,
 html {
-  background-image: url('../img/office-1734485_1280.jpg');
+  background-image: url('../img/plant.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -23,7 +23,10 @@ html {
   font-family: sans-serif;
   height: 100%;
 }
+h1 {
+  color: var(--textuno);
 
+}
 .menu {
   grid-area: menu;
   position: sticky;
