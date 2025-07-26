@@ -281,7 +281,7 @@ h1 {
 .topnav {
   opacity: 0.8;
   overflow: hidden;
-background-color: var(--color-uno);
+
 
 
 }
@@ -289,21 +289,22 @@ background-color: var(--color-uno);
 .topnav a {
   float: left;
   display: block;
-  color: var(--textdos);
+  color: var(--color-cinco);
   font-weight: bold;
   padding: 2%;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.5rem;
 }
 
 .topnav a:hover {
-  border-radius: 10px;
-  background-color: #ddd;
-  color: black;
+  border-radius: 5px;
+  background-color: var(--color-cinco);
+  color: var(--color-dos);
 }
 
 .topnav a.active {
-  color: var(--color-dos);
+  color: var(--color-uno);
+    border-radius: 5px;
 }
 
 .topnav .icon {

@@ -276,7 +276,7 @@ html {
 /* menu*/
 .topnav {
     overflow: hidden;
-    background-color: var(--color-uno);
+
 
 }
 
@@ -287,17 +287,19 @@ html {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+   font-size: 1.5rem;
     padding: auto;
+      font-weight: 700;
 }
 
 .topnav a:hover {
+    border-radius: 5px;
     background-color: #ddd;
     color: black;
 }
 
 .topnav a.active {
-    background-color: var(--color-dos);
+  
     color: var(--color-uno);
 }
 
