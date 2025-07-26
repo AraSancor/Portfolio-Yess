@@ -216,9 +216,9 @@ html {
 
   .aside p {
     color: var(--color-uno);
-    padding: 6%;
+    padding: 11%;
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
   }
 

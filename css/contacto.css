@@ -15,22 +15,22 @@
 
 body,
 html {
-  
+
     font-family: sans-serif;
     background-image: url('../img/fondo11.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     background-size: cover;
 }
 
 .header {
     grid-area: header;
     display: flex;
-}  
+}
 
 .main {
     grid-area: main;
-   opacity: 0.9;
+    opacity: 0.9;
     text-align: justify;
 }
 
@@ -74,20 +74,24 @@ html {
         padding: 2%;
 
     }
-    .date{
+
+    .date {
         text-align: right;
         margin: 2% 2% 1% 5%;
-        font-size: 3vw;
+        font-size: 1.5rem;
         color: var(--color-cuatro);
-      }
-      .date1{
-        
+    }
+
+    .date1 {
+
         padding: 8%;
-        font-size: 3vw;
-           color: var(--color-uno);
-      }
+        font-size: 1.5rem;
+        color: var(--color-uno);
+    }
+
     .footer {
         padding: 2% 10% 3% 20%;
+        font-size: 1rem;
     }
 
     iframe {
@@ -100,8 +104,9 @@ html {
         margin: 5%;
         width: 88vw;
         height: 68vw;
-    opacity: 0.8;
+        opacity: 0.8;
         text-align: center;
+         font-size: 1.5rem;
     }
 
     input,
@@ -111,7 +116,7 @@ html {
         border: 2px solid var(--color-dos);
         padding: 1%;
         margin-top: 2%;
-        font-size: 3vw;
+        font-size: 1.5rem;
 
     }
 
@@ -126,8 +131,9 @@ html {
         margin-top: 2%;
     }
 
-   
+
 }
+
 @media only screen and (min-width: 769px) and (max-width: 1280px) {
     .header {
 
@@ -140,18 +146,21 @@ html {
         padding: 2%;
 
     }
-    .date{
+
+    .date {
         text-align: right;
         margin: 2% 2% 1% 5%;
         font-size: 3vw;
         color: var(--color-cuatro);
-      }
-      .date1{
-        
+    }
+
+    .date1 {
+
         padding: 8%;
         font-size: 3vw;
-           color: var(--color-uno);
-      }
+        color: var(--color-uno);
+    }
+
     .footer {
         padding: 2% 10% 3% 20%;
     }
@@ -166,7 +175,7 @@ html {
         margin: 5%;
         width: 88vw;
         height: 68vw;
-    opacity: 0.8;
+        opacity: 0.8;
         text-align: center;
     }
 
@@ -192,17 +201,18 @@ html {
         margin-top: 2%;
     }
 
-   
+
 }
 
 @media only screen and (min-width: 1281px) {
 
-    .date{
+    .date {
         text-align: center;
         margin: 2% 2% 1% 40%;
         font-size: 1.5vw;
         color: var(--color-cuatro);
-      }
+    }
+
     .topnav {
         padding-left: 14%;
     }
@@ -218,11 +228,11 @@ html {
     }
 
     .footer {
-        padding: 2% ;
+        padding: 2%;
     }
 
     .divform {
-      
+
         border-radius: 15px;
         text-align: left;
         margin: 1% 1% 1% 10%;
@@ -251,12 +261,13 @@ html {
         margin-top: 2%;
 
     }
-    .date1 p{
+
+    .date1 p {
         padding: 8%;
         font-size: 2vw;
         color: var(--textdos);
-      }
-  
+    }
+
 
 
 }
