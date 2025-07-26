@@ -1,8 +1,8 @@
 :root {
-  --color-uno: #323643;
-  --color-dos: #606470;
-  --color-tres: #93DEFF;
-  --color-cuatro: #F7F7F7;
+  --color-uno: #2E5077;
+  --color-dos: #4DA1A9;
+  --color-tres: #79D7BE;
+  --color-cuatro: #F6F4F0;
   --textuno: #000;
   --textdos: #fff;
 }
@@ -13,14 +13,7 @@
 }
 
 body,
-html {
-  background-image: url("../img/fon33.jpg");
-  background-repeat: no-repeat, repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: sans-serif;
 
-}
 
 .header {
   grid-area: header;
@@ -59,7 +52,10 @@ html {
 }
 
 
+.aside p {
 
+padding: 50%;
+}
 
 .footer {
   opacity: 0.8;
@@ -163,7 +159,14 @@ html {
       "form"
       "footer";
   }
+html {
+  background-image: url("../img/pcmov33.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
 
+}
   .header h1 {
     margin-top: 5%;
     font-size: 5rem;
@@ -191,7 +194,9 @@ html {
   .divitem2 {
     margin: 3% 2% 2% 10%;
   }
-
+ .divitem2 h1{
+  color: var(--color-dos);
+  }
   .divitem2 img {
     grid-gap: 5%;
     width: 50vw;
@@ -219,15 +224,16 @@ html {
     color: var(--color-uno);
     padding: 6%;
     text-align: justify;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 600;
   }
 
   .date {
     text-align: right;
     margin: 2% 2% 1% 5%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
+    color: var(--color-uno);
   }
 
   .footer img {
@@ -239,34 +245,14 @@ html {
     grid-gap: 5%;
     padding: 3%;
     text-align: right;
+    font-size: 1.5rem;
   }
 
-  .divform {
-    color: var(--textdos);
-    border-radius: 3px;
-    text-align: left;
-    margin: 6%;
-    height: 60vw;
-    width: 88vw;
 
-  }
-
-  form {
-    font-family: sans-serif;
-    font-size: 2rem;
-    padding: 8%;
-    grid-gap: 10%;
-  }
-
-  input,
-  textarea {
-    opacity: 0.7;
-    width: 70vw;
-    height: 6vw;
-  }
 
   .mod {
     padding: 5%;
+    font-size: 1.5rem;
   }
 
 
@@ -285,18 +271,25 @@ html {
       "form"
       "footer";
   }
+html {
+  background-image: url("../img/pcTo33mov.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
 
+}
   .header h1 {
     margin-top: 5%;
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .header h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .header img {
-    width: 11vw;
+    width: 10vw;
   }
 
   .divitem1 {
@@ -349,6 +342,7 @@ html {
     margin: 2% 2% 1% 5%;
     font-size: 2rem;
     font-weight: 600;
+    color: var(--color-cuatro);
   }
 
 
@@ -362,35 +356,14 @@ html {
     grid-gap: 5%;
     padding: 3%;
     text-align: right;
+    font-size: 1.5rem;
   }
 
-  .divform {
-    color: var(--textdos);
-    border-radius: 3px;
-    text-align: left;
-    margin: 6%;
-    height: 55vw;
-    width: 88vw;
 
-  }
-
-  form {
-    font-family: sans-serif;
-    font-size: 4vw;
-    padding: 8%;
-    grid-gap: 10%;
-
-  }
-
-  input,
-  textarea {
-    opacity: 0.7;
-    width: 70vw;
-    height: 6vw;
-  }
 
   .mod {
     padding: 5%;
+    font-size: 1.5rem;
   }
 
 
@@ -407,6 +380,14 @@ html {
       "form "
       "footer ";
   }
+  html {
+  background-image: url("../img/pcTo33.jpg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: sans-serif;
+
+}
 
   .header h1 {
     margin-left: 5%;
@@ -469,9 +450,9 @@ html {
   }
 
   .aside p {
-    padding: 8%;
+    padding:  0 30%  0 30%;
     font-size: 1.5rem;
-    font-family: Comic Sans MS;
+    font-family: roboto, arial;
     color: var(--color-uno);
   }
 
@@ -479,7 +460,8 @@ html {
     font-weight: 400;
     text-align: right;
     margin: 2% 2% 1% 5%;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    color: var(--color-cuatro);
   }
 
 
@@ -489,14 +471,14 @@ html {
 
   .footer p {
     color: var(--textdos);
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .divitem4 {
     display: flex;
     grid-gap: 3%;
     padding: 1% 1% 1% 30%;
-
+ 
   }
 
 
@@ -509,32 +491,11 @@ html {
     padding-left: 33%;
   }
 
-
-  .divform {
-    margin: 2% 2% 2% 25%;
-    height: 50vw;
-    width: 50vw;
-    color: var(--textdos);
+  .mod {
+  padding: 1%;
+   
   }
-
-  form {
-    font-size: 1.5rem;
-    font-family: sans-serif;
-    margin: 5%;
-    padding: 5%;
-    grid-gap: 3%;
-
-  }
-
-  input,
-  textarea {
-    font-size: 1.5rem;
-    text-align: center;
-    opacity: 0.7;
-    margin: 2%;
-    width: 40vw;
-    height: 3.5vw;
-  }
+  
 
 
 }
