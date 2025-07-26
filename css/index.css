@@ -242,17 +242,17 @@ html {
 
   .divitem4 {
     display: flex;
-    grid-gap: 5%;
+    grid-gap: 2%;
     padding: 3%;
     text-align: right;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
 
 
   .mod {
     padding: 5%;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
 
