@@ -54,7 +54,7 @@ body,
 
 .aside p {
 
-padding: 50%;
+  padding: 50%;
 }
 
 .footer {
@@ -86,24 +86,21 @@ padding: 50%;
   float: left;
   display: block;
   color: var(--textuno);
-  text-align: center;
-  padding: 14px 16px;
+  font-weight: bold;
+  padding: 2%;
   text-decoration: none;
- font-size: 1.5rem;
-  font-weight: 700;
-  padding: auto;
+  font-size: 1.5rem;
 }
 
 .topnav a:hover {
   border-radius: 5px;
-  background-color: #ddd;
+  background-color: var(--color-cinco);
   color: var(--color-dos);
 }
 
 .topnav a.active {
+  color: var(--color-uno);
   border-radius: 5px;
-  
-  color: white;
 }
 
 .topnav .icon {
@@ -151,16 +148,18 @@ padding: 50%;
       "menu"
       "header"
       "aside"
-     "footer";
+      "footer";
   }
-html {
-  background-image: url("../img/pcmov33.jpg");
-  background-repeat: no-repeat, repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: sans-serif;
 
-}
+  html {
+    background-image: url("../img/pcmov33.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+
+  }
+
   .header h1 {
     margin-top: 5%;
     font-size: 5rem;
@@ -188,9 +187,11 @@ html {
   .divitem2 {
     margin: 3% 2% 2% 10%;
   }
- .divitem2 h1{
-  color: var(--color-dos);
+
+  .divitem2 h1 {
+    color: var(--color-dos);
   }
+
   .divitem2 img {
     grid-gap: 5%;
     width: 50vw;
@@ -264,14 +265,16 @@ html {
       "aside"
       "footer";
   }
-html {
-  background-image: url("../img/pcTo33mov.jpg");
-  background-repeat: no-repeat, repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: sans-serif;
 
-}
+  html {
+    background-image: url("../img/pcTo33mov.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+
+  }
+
   .header h1 {
     margin-top: 5%;
     font-size: 5rem;
@@ -341,7 +344,7 @@ html {
 
   .footer img {
     width: 8vw;
-    
+
   }
 
   .divitem4 {
@@ -362,7 +365,7 @@ html {
 
 }
 
-@media only screen and (min-width: 1281px)  {
+@media only screen and (min-width: 1281px) {
   .grid-container {
     display: grid;
     grid-template-areas:
@@ -372,14 +375,15 @@ html {
       "aside"
       "footer ";
   }
-  html {
-  background-image: url("../img/pcTo33.jpg");
-  background-repeat: no-repeat, repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: sans-serif;
 
-}
+  html {
+    background-image: url("../img/pcTo33.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: sans-serif;
+
+  }
 
   .header h1 {
     margin-left: 5%;
@@ -442,7 +446,7 @@ html {
   }
 
   .aside p {
-    padding:  0 30%  0 30%;
+    padding: 0 30% 0 30%;
     font-size: 1.5rem;
     font-family: roboto, arial;
     color: var(--color-uno);
@@ -470,7 +474,7 @@ html {
     display: flex;
     grid-gap: 3%;
     padding: 1% 1% 1% 30%;
- 
+
   }
 
 
@@ -484,10 +488,10 @@ html {
   }
 
   .mod {
-  padding: 1%;
-   
+    padding: 1%;
+
   }
-  
+
 
 
 }
