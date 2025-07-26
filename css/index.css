@@ -351,8 +351,10 @@ html {
     font-weight: 600;
   }
 
+
   .footer img {
     width: 8vw;
+    
   }
 
   .divitem4 {
@@ -377,6 +379,7 @@ html {
     font-size: 4vw;
     padding: 8%;
     grid-gap: 10%;
+
   }
 
   input,
