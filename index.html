@@ -70,49 +70,73 @@
 
     <div class="aside">
 
+   
+
+      <div class="card"></div>
+
+
+      <div id="texto">
+
+      </div>
+
+
+      <script>
+        // Texto que se mostrará letra por letra
+        const textoCompleto = "Soy una profesional Web Developer con habilidades en gestión de contenido, diseño gráfico y marketing digital, respaldado por conocimientos en desarrollo backend y frontend. Mi enfoque integral me permite crear soluciones creativas y efectivas que impulsan la presencia digital y el éxito de proyectos diversos.";
+
+        // Elemento donde se mostrará el texto
+        const contenedor = document.getElementById('texto');
+
+        // Configuración del efecto
+        const velocidad = 60; // milisegundos entre cada letra
+
+        // Función para mostrar el texto letra por letra
+        function tipeo(texto, paso = 0) {
+          if (paso <= texto.length) {
+            contenedor.textContent = texto.substring(0, paso);
+            setTimeout(() => tipeo(texto, paso + 1), velocidad);
+          }
+        }
+
+        // Iniciar el efecto cuando la página cargue
+        window.addEventListener('DOMContentLoaded', () => {
+          tipeo(textoCompleto);
+        });
+      </script>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+  <div class="footer">
+
+
+    <div class="divitem4">
       <div>
-        <p>
-          "Soy una profesional Web Developer con habilidades en gestión de contenido, diseño gráfico y marketing
-          digital, respaldado
-          por conocimientos en desarrollo backend y frontend. Mi enfoque integral me permite crear soluciones creativas
-          y efectivas que impulsan la presencia digital y el éxito de proyectos diversos."
-
-
-        </p>
-
+        <p>Contacto: yessworkinf@gmail.com</p>
       </div>
-
-    </div>
-
-
-
-
-
-
-    <div class="footer">
-
-
-      <div class="divitem4">
-        <div>
-          <p>Contacto: yessworkinf@gmail.com</p>
-        </div>
-        <div><a target="_blank" href="https://github.com/AraSancor"><img src="img/gihub.png" alt=""></a></div>
-        <div> <a target="_blank" href="https://www.linkedin.com/in/yessworkinf/"><img src="img/linke.png" alt=""></a>
-        </div>
-        <div><a target="_blank" href="https://www.sololearn.com/profile/20814628"><img src="img/solo.png" alt=""></a>
-        </div>
+      <div><a target="_blank" href="https://github.com/AraSancor"><img src="img/gihub.png" alt=""></a></div>
+      <div> <a target="_blank" href="https://www.linkedin.com/in/yessworkinf/"><img src="img/linke.png" alt=""></a>
       </div>
-      <hr>
-      <div class="mod">
-
-        <p>Fecha de modificación:</p>
-        <p id="demo"></p>
-        <script>
-          const date = new Date(document.lastModified);
-          document.getElementById("demo").innerHTML = date;
-        </script>
+      <div><a target="_blank" href="https://www.sololearn.com/profile/20814628"><img src="img/solo.png" alt=""></a>
       </div>
     </div>
+    <hr>
+    <div class="mod">
+
+      <p>Fecha de modificación:</p>
+      <p id="demo"></p>
+      <script>
+        const date = new Date(document.lastModified);
+        document.getElementById("demo").innerHTML = date;
+      </script>
+    </div>
+  </div>
   </div>
 </body>
 

@@ -18,10 +18,10 @@ body,
 .header {
   grid-area: header;
 }
-
-.header h1 {
+.header h1{
   color: var(--textdos);
 }
+
 
 .header h2 {
   color: var(--color-tres);
@@ -49,12 +49,6 @@ body,
   grid-area: header;
   grid-area: aside;
   opacity: 0.9;
-}
-
-
-.aside p {
-
-  padding: 50%;
 }
 
 .footer {
@@ -152,7 +146,7 @@ body,
   }
 
   html {
-    background-image: url("../img/pcmov33.jpg");
+    background-image: url("../img/33A.jpg");
     background-repeat: no-repeat, repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -163,6 +157,8 @@ body,
   .header h1 {
     margin-top: 5%;
     font-size: 5rem;
+
+ 
   }
 
   .header h2 {
@@ -215,12 +211,20 @@ body,
     width: 95wv;
   }
 
-  .aside p {
-    color: var(--color-uno);
-    padding: 11%;
+   
+  .card {
+     font-family: roboto, arial;
+
+  }
+
+   #texto {
+    border-radius: 5px;
+    background-color: var(--color-uno);
+    padding: 3%;
+    margin: 5%;
+    color: var(--textdos);
+    font-size: 1.5rem;
     text-align: justify;
-    font-size: 1.3rem;
-    font-weight: 600;
   }
 
   .date {
@@ -267,7 +271,7 @@ body,
   }
 
   html {
-    background-image: url("../img/pcTo33mov.jpg");
+    background-image: url("../img/33.jpg");
     background-repeat: no-repeat, repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -325,12 +329,21 @@ body,
     width: 95wv;
   }
 
-  .aside p {
-    color: var(--color-uno);
-    padding: 6%;
+
+  
+  .card {
+     font-family: roboto, arial;
+
+  }
+
+  #texto {
+    border-radius: 5px;
+    background-color: var(--color-uno);
+    padding: 3%;
+    margin: 5%;
+    color: var(--textdos);
+    font-size: 1.5rem;
     text-align: justify;
-    font-size: 2rem;
-    font-weight: 600;
   }
 
   .date {
@@ -377,7 +390,7 @@ body,
   }
 
   html {
-    background-image: url("../img/pcTo33.jpg");
+    background-image: url("../img/33.jpg");
     background-repeat: no-repeat, repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -442,14 +455,23 @@ body,
 
   .aside {
     height: 33vw;
-    text-align: justify;
+
   }
 
-  .aside p {
-    padding: 0 30% 0 30%;
+  .card {
+    
+     font-family: roboto, arial;
+
+  }
+
+  #texto {
+    border-radius: 5px;
+    background-color: var(--color-uno);
+    padding: 3%;
+    margin: 5%;
+    color: var(--textdos);
     font-size: 1.5rem;
-    font-family: roboto, arial;
-    color: var(--color-uno);
+    text-align: justify;
   }
 
   .date {
