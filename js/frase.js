@@ -1,5 +1,5 @@
 
-        const textoCompleto = "Soy una profesional Web Developer con habilidades en gestión de contenido, diseño gráfico y marketing digital, respaldado por conocimientos en desarrollo backend y frontend. Mi enfoque integral me permite crear soluciones creativas y efectivas que impulsan la presencia digital y el éxito de proyectos diversos.";
+        const textoCompleto = "Desarrolladora web con experiencia en soluciones frontend integrales, gestión de contenido, diseño gráfico, marketing digital, posicionamiento seo, con capacidad de colaborar estrechamente con equipos backend. Experiencia en plataformas no-code, WordPress, PrestaShop, habilidad en arquitecturas de información, APIs, integraciones, y seguridad de aplicaciones web.";
 
         const contenedor = document.getElementById('texto');
 
