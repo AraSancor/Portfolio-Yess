@@ -37,11 +37,9 @@
 
     <div class="main">
       
-      <div class="date"><script>
-        var meses = new Array ("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre");
-        var f=new Date();
-        document.write(f.getDate() + " de " + meses[f.getMonth()] + " de " + f.getFullYear());
-        </script></div>
+      <div class="date">
+    <script src="../js/date.js"></script>
+        </div>
         
         <div class="divform">
         <form action="mailto:yessworkinf@gmail.com">
@@ -57,8 +55,9 @@
      </div>
     
      <div class="date1">
-        <p>"Mi objetivo profesional es ampliar mi formación tecnológica y alcanzar el nivel
-          competitivo requerido".
+        <p>"Desarrollo de interfaces eficientes y atractivas que transforman usuarios en clientes.
+           Soy una desarrolladora web con enfoque en rendimiento, accesibilidad y experiencia,
+            lista para convertir ideas en productos digitales intuitivos."
         </p>
       </div>
 
@@ -70,10 +69,7 @@
       <div class="mod"> 
     
         <p >Fecha de modificación:</p><p id="demo"></p>
-        <script>
-        const date = new Date(document.lastModified);
-        document.getElementById("demo").innerHTML = date;
-        </script>  
+        <script src="../js/modifica.js"></script>  
       </div>
     </div>
     </div>
