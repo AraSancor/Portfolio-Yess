@@ -220,11 +220,12 @@ body,
    #texto {
     border-radius: 5px;
     background-color: var(--color-uno);
-    padding: 5%;
-    margin: 6%;
+    padding: 3% 6%;
+    margin: 8%;
     color: var(--textdos);
     font-size: 1.5rem;
     text-align: justify;
+    opacity: 8;
   }
 
   .date {
