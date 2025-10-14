@@ -180,13 +180,14 @@ body,
   .flex {
     display: block;
   }
+ 
 
   .divitem2 {
     margin: 3% 2% 2% 10%;
   }
 
   .divitem2 h1 {
-    color: var(--color-dos);
+    color: var(--textdos);
   }
 
   .divitem2 img {
@@ -201,15 +202,12 @@ body,
     color: var(--textdos);
     text-decoration: none;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.3rem;
     padding: 3%;
-    width: auto;
-    margin: 3%;
-   
+    width: 33%;
+     
   }
  
-
-
   .aside {
     width: 95wv;
   }
@@ -228,7 +226,7 @@ body,
     color: var(--textdos);
     font-size: 1.3rem;
     text-align: justify;
-    opacity: 8;
+    opacity: 0.9;
   }
 
   .date {
