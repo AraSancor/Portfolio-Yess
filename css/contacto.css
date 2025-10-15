@@ -86,7 +86,7 @@ html {
 
         padding: 8%;
         font-size: 1.5rem;
-         color: var(--textdos);
+        color: var(--textdos);
     }
 
     .footer {
@@ -106,7 +106,7 @@ html {
         height: 68vw;
         opacity: 0.8;
         text-align: center;
-         font-size: 1.5rem;
+        font-size: 1.5rem;
     }
 
     input,
@@ -158,7 +158,7 @@ html {
 
         padding: 8%;
         font-size: 3vw;
-         color: var(--textdos);
+        color: var(--textdos);
     }
 
     .footer {
@@ -287,9 +287,9 @@ html {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-   font-size: 1.5rem;
+    font-size: 1.5rem;
     padding: auto;
-      font-weight: 700;
+    font-weight: 700;
 }
 
 .topnav a:hover {
@@ -299,7 +299,7 @@ html {
 }
 
 .topnav a.active {
-  
+
     color: var(--color-uno);
 }
 
