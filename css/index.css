@@ -180,7 +180,7 @@ body,
     }
 
     .divitem2 img {
-        width: 50vw;
+        width: 33vw;
         border-radius: 50%;
         grid-gap: 5%;
     }
@@ -196,11 +196,9 @@ body,
         width: 33%;
     }
 
-    .aside {
-        width: 95wv;
-    }
+   
 
-    /* nota: 95vw, corregir si necesario */
+
     .card {
         font-family: Roboto, Arial;
     }
@@ -299,11 +297,7 @@ body,
         margin: 3%;
     }
 
-    .aside {
-        width: 95wv;
-    }
 
-    /* revisar 95vw si se requiere 95vw */
     .card {
         font-family: Roboto, Arial;
     }
