@@ -89,7 +89,7 @@ html {
         color: var(--textdos);
     }
 
-       .card {
+    .card {
         font-family: Roboto, Arial;
     }
 
@@ -175,7 +175,7 @@ html {
         font-size: 3vw;
         color: var(--textdos);
     }
-    
+
 
     .footer {
         padding: 2% 10% 3% 20%;
@@ -186,7 +186,8 @@ html {
         width: 90vw;
         height: 60vw;
     }
-   .card {
+
+    .card {
         font-family: Roboto, Arial;
     }
 
@@ -199,6 +200,7 @@ html {
         font-size: 1.5rem;
         text-align: justify;
     }
+
     form {
         margin: 5%;
         width: 88vw;
@@ -255,7 +257,7 @@ html {
         grid-gap: 5px;
     }
 
-       .card {
+    .card {
         font-family: Roboto, Arial;
     }
 

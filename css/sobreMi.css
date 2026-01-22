@@ -16,15 +16,7 @@
 }
 
 html,
-body {
-    height: 100%;
-    font-family: sans-serif;
-    background-image: url('../img/plant.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    
-}
+
 
 h1 {
     color: var(--textuno);
