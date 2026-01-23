@@ -143,8 +143,8 @@ body,
     }
 
     html {
-        background-image: url("../img/cv.jpg");
-        background: url("../img/cv.jpg") no-repeat center/cover fixed;
+        background-image: url("../img/desk.jpg");
+        background: url("../img/desk.jpg") no-repeat center/cover fixed;
         font-family: sans-serif;
     }
 
@@ -177,7 +177,7 @@ body,
     }
 
     .divitem2 h1 {
-        color: var(--textdos);
+        color: var(--color-uno);
     }
 
     .divitem2 img {
@@ -188,29 +188,25 @@ body,
 
     .item1a {
         display: flex;
-        background-color: var(--color-uno);
-        color: var(--textdos);
+        background-color: var(--color-tres);
+        color: var(--color-dos);
         text-decoration: none;
         text-align: center;
-        font-size: 1.3rem;
+        font-size: 2rem;
         padding: 3%;
         width: 33%;
     }
-
-
-
 
     .card {
         font-family: Roboto, Arial;
     }
 
     #texto {
-        border-radius: 5px;
-        background-color: var(--color-uno);
+       
         padding: 3% 8%;
-        margin: 8%;
-        color: var(--textdos);
-        font-size: 1.3rem;
+        margin: 0 6%;
+        color: var(--color-uno);
+        font-size: 2rem;
         text-align: justify;
         opacity: 0.9;
     }
@@ -232,12 +228,13 @@ body,
         grid-gap: 2%;
         padding: 3%;
         text-align: right;
-        font-size: 1rem;
+        font-size: 1.5rem;
+        margin: 3%;
     }
 
     .mod {
         padding: 5%;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -288,13 +285,13 @@ body,
 
     .item1a {
         display: flex;
-        background-color: var(--color-uno);
+        background-color: var(--color-tres);
         color: var(--textdos);
         text-decoration: none;
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.5rem;
         padding: 3%;
-        width: 20vw;
+        width: 33vw;
         margin: 3%;
     }
 
@@ -317,7 +314,7 @@ body,
         margin: 2% 2% 1% 5%;
         font-size: 2rem;
         font-weight: 600;
-        color: var(--textuno);
+        color: var(--color-uno);
     }
 
     .footer img {
@@ -325,16 +322,18 @@ body,
     }
 
     .divitem4 {
+         margin: 3%;
         display: flex;
         grid-gap: 5%;
         padding: 3%;
         text-align: right;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .mod {
-        padding: 1%;
-        font-size: 1.5rem;
+        margin: 3%;
+        padding: 3%;
+        font-size: 2rem;
     }
 
     .topnav {
