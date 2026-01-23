@@ -248,8 +248,8 @@ body,
     }
 
     html {
-        background-image: url("../img/2026-1.jpg");
-        background: url("../img/2026-1.jpg") no-repeat center/cover fixed;
+        background-image: url("../img/desk.jpg");
+        background: url("../img/desk.jpg") no-repeat center/cover fixed;
         font-family: sans-serif;
     }
 
@@ -305,11 +305,10 @@ body,
 
     #texto {
         border-radius: 5px;
-        background-color: var(--color-uno);
         padding: 3%;
-        margin: 5%;
-        color: var(--textdos);
-        font-size: 1.5rem;
+        margin: 0 10%;
+        color: var(--color-uno);
+        font-size: 3rem;
         text-align: justify;
     }
 
@@ -318,7 +317,7 @@ body,
         margin: 2% 2% 1% 5%;
         font-size: 2rem;
         font-weight: 600;
-        color: var(--color-cuatro);
+        color: var(--textuno);
     }
 
     .footer img {
@@ -350,7 +349,7 @@ body,
     }
 
     html {
-        background-image: url("../img/2026-1.jpg");
+        background-image: url("../img/desk.jpg");
         background: url("../img/desk.jpg") no-repeat center/cover fixed;
         font-family: sans-serif;
     }
@@ -417,7 +416,6 @@ body,
 
     #texto {
         border-radius: 5px;
-        background-color: none;
         padding: 3%;
         margin: 0 10%;
         color: var(--color-uno);
