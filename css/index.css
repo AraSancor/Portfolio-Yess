@@ -1,12 +1,12 @@
 :root {
-    --color-uno: #2E5077;
-    --color-dos: #4DA1A9;
-    --color-tres: #79D7BE;
-    --color-cuatro: #F6F4F0;
+    --color-uno: #213555;
+    --color-dos: #3E5879;
+    --color-tres: #D8C4B6;
+    --color-cuatro: #F5EFE7;
     --textuno: #000;
     --textdos: #fff;
     --color-cinco:
-        
+
     ;
 }
 
@@ -30,12 +30,12 @@ body,
 
 
 .header h1 {
-    color: var(--textdos);
+    color: var(--color-uno);
     margin: 0;
 }
 
 .header h2 {
-    color: var(--color-uno);
+    color: var(--color-dos);
 }
 
 .header img {
@@ -80,7 +80,7 @@ body,
 .topnav a {
     float: left;
     display: block;
-    color: var(--textuno);
+    color: var(--color-dos);
     font-weight: bold;
     padding: 2%;
     text-decoration: none;
@@ -88,12 +88,13 @@ body,
 }
 
 .topnav a:hover {
-    background-color: var(--color-cinco, transparent);
+    background-color: var(--color-cuatro, transparent);
     color: var(--color-dos);
     border-radius: 5px;
 }
 
 .topnav a.active {
+
     color: var(--color-uno);
     border-radius: 5px;
 }
@@ -196,7 +197,7 @@ body,
         width: 33%;
     }
 
-   
+
 
 
     .card {
@@ -350,7 +351,7 @@ body,
 
     html {
         background-image: url("../img/2026-1.jpg");
-        background: url("../img/2026-1.jpg") no-repeat center/cover fixed;
+        background: url("../img/desk.jpg") no-repeat center/cover fixed;
         font-family: sans-serif;
     }
 
@@ -359,9 +360,9 @@ body,
         font-size: 6rem;
     }
 
-  
 
-   
+
+
     .header h2 {
         margin-left: 10%;
         font-size: 2rem;
@@ -397,12 +398,12 @@ body,
     }
 
     .item1a {
-        background-color: var(--color-dos);
-        color: var(--textdos);
+        background-color: var(--color-tres);
+        color: var(--color-dos);
         text-decoration: none;
         font-size: 2rem;
         padding: 1%;
-        margin-left: 20%;
+        margin: 8%;
         width: 20vw;
     }
 
@@ -416,11 +417,11 @@ body,
 
     #texto {
         border-radius: 5px;
-        background-color: var(--color-uno);
+        background-color: none;
         padding: 3%;
-        margin: 5%;
-        color: var(--textdos);
-        font-size: 1.5rem;
+        margin: 0 10%;
+        color: var(--color-uno);
+        font-size: 2rem;
         text-align: justify;
     }
 
@@ -429,7 +430,7 @@ body,
         text-align: right;
         margin: 2% 2% 1% 5%;
         font-size: 1.5rem;
-        color: var(--color-cuatro);
+        color: var(--color-uno);
     }
 
     .footer {
