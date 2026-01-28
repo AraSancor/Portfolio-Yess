@@ -148,7 +148,7 @@ a {
  
   .containerdisc {
     padding: 5%;
-    font-size: 7vw;
+    font-size: 1.3rem;
     width: 85vw;
     height: 90vw;
     
@@ -161,7 +161,7 @@ a {
     
   }
   .containerdisc a {
-    font-size: 3vw;
+    font-size: 1.3rem;
     color: var(--textuno);
     background-color: var(--color-tres);
     padding: 2%;
