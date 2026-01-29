@@ -1,5 +1,5 @@
 
-        const textoCompleto = "Desarrolladora web con experiencia en plataformas no-code, WordPress, PrestaShop, APIs, seguridad de aplicaciones web, diseño gráfico, gestión de contenido,  marketing digital, posicionamiento seo, con capacidad de colaborar estrechamente con equipos backend.";
+        const textoCompleto = "Desarrolladora web con experiencia en plataformas no-code, WordPress, PrestaShop, APIs, diseño gráfico, gestión de contenido,  marketing digital, posicionamiento seo, con capacidad de colaborar estrechamente con equipos backend.";
 
         const contenedor = document.getElementById('texto');
 
