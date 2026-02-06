@@ -35,15 +35,18 @@ html {
   top: 0;
   opacity: 0.8;
 }
+
 .header {
   grid-area: header;
 
 }
+
 .main {
   grid-area: main;
   opacity: 0.9;
 
 }
+
 a {
   text-decoration: none;
   color: var(--textuno);
@@ -89,7 +92,6 @@ a {
 
 @media only screen and (min-width: 1px) and (max-width: 768px) {
   .header {
-
     grid-gap: 8%;
   }
 
@@ -115,20 +117,12 @@ a {
 
   main ul {
     display: block;
-    list-style-type: none;
+
   }
 
-
-
-  main {
+  .main li {
     margin: 3%;
-
-  }
-
-  main li {
-
-    margin-bottom: 8%;
-    margin-top: 3%;
+    list-style-type: none;
   }
 
   li {
@@ -141,21 +135,18 @@ a {
     margin: 1%;
   }
 
-
   .containerdisc {
     padding: 5%;
-    font-size: 1.3rem;
-    width: 85vw;
-    height: 90vw;
+    font-size: 1.5rem;
+    width: 80vw;
+    height: 80vw;
 
   }
 
   .containerdisc p {
     padding: 3%;
-    text-align: left;
-
-
-
+    text-align: justify;
+    margin: 2%;
   }
 
   .containerdisc a {
@@ -195,10 +186,15 @@ a {
   .date1 {
 
     padding: 8%;
-    font-size: 3vw;
+    font-size: 2rem;
     color: var(--textuno);
   }
 
+  .main li {
+    padding: 2%;
+    margin: 3%;
+
+  }
 
   ul {
     display: flex;
@@ -211,43 +207,26 @@ a {
     margin: 1%;
   }
 
-  main {
-    margin: 3%;
-
-  }
-
-  main li {
-    padding: 1%;
-    margin: 5%;
-
-  }
-
-  button {
-    font-size: 1rem;
-  }
-
   .containerdisc {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     width: 40vw;
     height: 40vw;
   }
 
   .containerdisc p {
     padding-top: 3%;
-    text-align: left;
+    text-align: justify;
     padding-left: 3%;
     padding-bottom: 2%;
-
-
+    margin: 2%;
   }
 
   .containerdisc a {
     padding: 1%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     background-color: var(--color-tres);
     padding: 1%;
     color: var(--color-uno);
-
   }
 
   .footer {
@@ -284,7 +263,6 @@ a {
 
   ul {
     display: flex;
-
     list-style-type: none;
   }
 
@@ -298,15 +276,10 @@ a {
     margin: 1%;
   }
 
+  .main li {
+    padding: 2%;
+    margin: 3%;
 
-
-  main li {
-    padding: 1%;
-    margin: 2%;
-  }
-
-  button {
-    font-size: 1rem;
   }
 
   .containerdisc {
@@ -325,15 +298,15 @@ a {
 
   .containerdisc p {
     padding-top: 3%;
-    text-align: left;
+    text-align: justify;
     padding-left: 3%;
     padding-bottom: 2%;
-
+    margin: 3%;
   }
 
   .date1 p {
     padding: 8%;
-    font-size: 2vw;
+    font-size: 2rem;
     color: var(--textuno);
   }
 
