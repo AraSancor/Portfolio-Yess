@@ -103,15 +103,15 @@ a {
 
   .date {
     text-align: right;
-    margin: 2% 2% 1% 5%;
-    font-size: 1.5rem;
+    margin: 2% ;
+    font-size: 1rem;
     color: var(--textuno);
   }
 
   .date1 {
 
     padding: 8%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--textuno);
   }
 
@@ -136,10 +136,10 @@ a {
   }
 
   .containerdisc {
-    padding: 5%;
-    font-size: 1.5rem;
-    width: 80vw;
-    height: 80vw;
+    padding: 3%;
+    font-size: 1rem;
+    width: 83vw;
+    height: 83vw;
 
   }
 
@@ -150,14 +150,14 @@ a {
   }
 
   .containerdisc a {
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: var(--textuno);
     background-color: var(--color-tres);
     padding: 2%;
   }
 
   .footer {
-    padding: 2% 10% 3% 20%;
+    padding: 2%;
     font-size: 1rem;
   }
 
@@ -165,7 +165,6 @@ a {
 
 @media only screen and (min-width: 769px) and (max-width: 1280px) {
   .header {
-
     padding: 2% 3% 3% 50%;
     grid-gap: 8%;
   }
@@ -178,13 +177,12 @@ a {
 
   .date {
     text-align: right;
-    margin: 2% 2% 1% 5%;
-    font-size: 3vw;
+    margin: 2%;
+    font-size: 1rem;
     color: var(--textuno);
   }
 
   .date1 {
-
     padding: 8%;
     font-size: 2rem;
     color: var(--textuno);
@@ -193,7 +191,7 @@ a {
   .main li {
     padding: 2%;
     margin: 3%;
-
+ 
   }
 
   ul {
@@ -205,10 +203,11 @@ a {
     text-decoration: none;
     padding: 1%;
     margin: 1%;
+     font-size: 1rem;
   }
 
   .containerdisc {
-    font-size: 1.4rem;
+    font-size: 1rem;
     width: 40vw;
     height: 40vw;
   }
@@ -219,11 +218,12 @@ a {
     padding-left: 3%;
     padding-bottom: 2%;
     margin: 2%;
+     font-size: 1rem;
   }
 
   .containerdisc a {
     padding: 1%;
-    font-size: 1.3rem;
+    font-size: 1rem;
     background-color: var(--color-tres);
     padding: 1%;
     color: var(--color-uno);
@@ -240,9 +240,9 @@ a {
 @media only screen and (min-width: 1281px) {
 
   .date {
-    text-align: center;
-    margin: 2% 2% 1% 40%;
-    font-size: 2rem;
+    text-align: right;
+    margin: 2%;
+    font-size: 1.2rem;
     color: var(--textuno);
   }
 
@@ -268,7 +268,8 @@ a {
 
   li {
     padding: 1%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+
   }
 
   .li {
@@ -280,20 +281,21 @@ a {
     padding: 2%;
     margin: 3%;
 
+
   }
 
   .containerdisc {
-    font-size: 2rem;
+    font-size: 1.8rem;
     width: 40vw;
     height: 40vw;
   }
 
   .containerdisc a {
-    font-size: 1.5vw;
+    font-size: 1.5rem;
     background-color: var(--color-tres);
     color: var(--color-uno);
     padding: 1%;
-
+    font-size: 1.6rem;
   }
 
   .containerdisc p {
@@ -302,11 +304,12 @@ a {
     padding-left: 3%;
     padding-bottom: 2%;
     margin: 3%;
+    font-size: 1.5rem;
   }
 
   .date1 p {
     padding: 8%;
-    font-size: 2rem;
+    font-size: 1rem;
     color: var(--textuno);
   }
 
@@ -385,7 +388,7 @@ a {
 /* fin menu*/
 
 
-/* Cara del disco*/
+/* Cara */
 
 .imgtarg {
   width: 100%;
@@ -409,7 +412,7 @@ a {
 .disco h3,
 card p {
   display: block;
-  /*margin: 2%;*/
+ 
 }
 
 .disco p,
@@ -458,7 +461,7 @@ card p {
   opacity: 0.9;
   background-color: var(--color-tres);
   color: var(--textuno);
-  font-size: 0.65em;
+  
 }
 
 .reverso button {
