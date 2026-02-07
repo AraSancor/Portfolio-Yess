@@ -202,11 +202,10 @@ body,
     }
 
     #texto {
-       
-        padding: 3% 8%;
+        padding: 5%;
         margin: 0 6%;
         color: var(--color-uno);
-        font-size: 2rem;
+        font-size: 1.5rem;
         text-align: justify;
         opacity: 0.9;
     }
@@ -214,7 +213,7 @@ body,
     .date {
         text-align: right;
         margin: 2% 2% 1% 5%;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 600;
         color: var(--color-uno);
     }
@@ -228,13 +227,13 @@ body,
         grid-gap: 2%;
         padding: 3%;
         text-align: right;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         margin: 3%;
     }
 
     .mod {
         padding: 5%;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -301,18 +300,18 @@ body,
     }
 
     #texto {
-        border-radius: 5px;
+          
         padding: 3%;
         margin: 0 10%;
         color: var(--color-uno);
-        font-size: 3rem;
+        font-size: 2rem;
         text-align: justify;
     }
 
     .date {
         text-align: right;
         margin: 2% 2% 1% 5%;
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 600;
         color: var(--color-uno);
     }
@@ -327,13 +326,13 @@ body,
         grid-gap: 5%;
         padding: 3%;
         text-align: right;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .mod {
         margin: 3%;
-        padding: 3%;
-        font-size: 2rem;
+        padding: 1%;
+        font-size: 1.5rem;
     }
 
     .topnav {
@@ -414,9 +413,9 @@ body,
     }
 
     #texto {
-        border-radius: 5px;
-        padding: 3%;
-        margin: 0 10%;
+     
+        padding: 1%;
+        margin: 0 11%;
         color: var(--color-uno);
         font-size: 2rem;
         text-align: justify;
@@ -442,7 +441,9 @@ body,
     .divitem4 {
         display: flex;
         grid-gap: 3%;
-        padding: 1% 1% 1% 30%;
+     padding-left: 30%;
+        
+            
     }
 
     .footer img {
