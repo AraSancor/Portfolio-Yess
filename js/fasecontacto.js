@@ -1,5 +1,5 @@
 
-        const textoCompleto = "Desarrollo de interfaces eficientes y atractivas que transforman usuarios en clientes. Soy una desarrolladora web con enfoque en rendimiento, accesibilidad y experiencia, lista para convertir ideas en productos digitales intuitivos.";
+        const textoCompleto = "Desarrollo interfaces rápidas, accesibles y optimizadas para SEO que transforman usuarios en clientes. Convierto ideas en productos digitales intuitivos con WordPress, PrestaShop y React. Hablemos de tu proyecto..";
 
         const contenedor = document.getElementById('texto');
 
