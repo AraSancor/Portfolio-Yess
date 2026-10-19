@@ -251,7 +251,7 @@ body,
 
     .header h1 {
         margin-top: 5%;
-        font-size: 4rem;
+        font-size: 5rem;
     }
 
     .header h2 {
@@ -354,7 +354,7 @@ body,
 
     .header h1 {
         margin-left: 5%;
-        font-size: 6rem;
+        font-size: 5rem;
     }
 
 
@@ -382,6 +382,7 @@ body,
 
     .flex {
         display: flex;
+    
     }
 
     .divitem2 {
