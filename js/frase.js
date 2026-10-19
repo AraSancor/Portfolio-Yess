@@ -1,5 +1,5 @@
 
-        const textoCompleto = "Desarrolladora Frontend especializada en WordPress y PrestaShop. Integro diseño, APIs y SEO técnico para crear e-commerce rápidos, accesibles y que convierten. Acostumbrada a colaborar con equipos Backend.";
+        const textoCompleto = "Desarrollo e-commerce rápidos, accesibles (WCAG) y que convierten. Integro Figma, APIs y SEO técnico para tiendas que venden.";
 
         const contenedor = document.getElementById('texto');
 
