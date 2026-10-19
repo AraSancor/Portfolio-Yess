@@ -1,5 +1,5 @@
 
-        const textoCompleto = "Desarrolladora web con experiencia en plataformas no-code, WordPress, PrestaShop, APIs, diseño gráfico, gestión de contenido,  marketing digital, posicionamiento seo, con capacidad de colaborar estrechamente con equipos Backend.";
+        const textoCompleto = "Desarrolladora Frontend especializada en WordPress y PrestaShop. Integro diseño, APIs y SEO técnico para crear e-commerce rápidos, accesibles y que convierten. Acostumbrada a colaborar con equipos Backend.";
 
         const contenedor = document.getElementById('texto');
 
