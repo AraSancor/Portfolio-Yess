@@ -100,7 +100,7 @@ html {
         margin: 8%;
         color: var(--textdos);
         font-size: 1.5rem;
-        text-align: justify;
+        text-align: left;
         opacity: 0.9;
     }
 

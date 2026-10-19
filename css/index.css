@@ -226,7 +226,7 @@ body,
         display: flex;
         grid-gap: 2%;
         padding: 3%;
-        text-align: right;
+        text-align: left;
         font-size: 1.2rem;
         margin: 3%;
     }
@@ -237,7 +237,7 @@ body,
     }
 }
 
-@media only screen and (min-width: 150px) and (max-width: 1280px) {
+@media only screen and (min-width: 1px) and (max-width: 1280px) {
     .grid-container {
         display: grid;
         grid-template-areas: "menu" "header" "aside" "footer";
