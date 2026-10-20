@@ -76,25 +76,8 @@
     <p>© 2026 Yessyca. Todos los derechos reservados.</p>
   </footer>
 
-  <script>
-    const menuToggle = document.querySelector(".menu-toggle");
-    const menu = document.querySelector(".menu");
+  <script src="./js/menuindex.js">
 
-    menuToggle.addEventListener("click", () => {
-      const isOpen = menu.classList.toggle("open");
-      menuToggle.setAttribute("aria-expanded", isOpen);
-      menuToggle.setAttribute("aria-label", isOpen ? "Cerrar menú" : "Abrir menú");
-      menuToggle.textContent = isOpen ? "✕" : "☰";
-    });
-
-    menu.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => {
-        menu.classList.remove("open");
-        menuToggle.setAttribute("aria-expanded", "false");
-        menuToggle.setAttribute("aria-label", "Abrir menú");
-        menuToggle.textContent = "☰";
-      });
-    });
   </script>
 </body>
 </html>
