@@ -1,105 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Portfolio</title>
-  <link rel="icon" type="image/jpg" href="img/avatarARA.jpg">
-  <link rel="stylesheet" href="css/index.css">
+  <meta name="description" content="Portfolio personal y proyectos">
+  
+    <link rel="icon" type="image/jpg" href="img/avatarARA.jpg">
+      <link rel="stylesheet" href="./css/index.css">
+  <title>Mi Portfolio</title>
+
+
 </head>
-
 <body>
-  <div class="grid-container">
-    <div class="menu">
-      <script src="js/menu.js"></script>
-      <div class="topnav" id="myTopnav">
-        <a href="index.html" class="active">Inicio</a>
-        <a href="html/sobremi.html">Sobre mi</a>
-        <a href="html/trabajos.html">Proyectos</a>
-        <a href="html/contacto.html">Contacto</a>
-        <a href="./html/indexCV.html">CV</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
+  <header>
+    <nav aria-label="Navegación principal">
+      <a class="logo" href="#inicio">Mi Portfolio</a>
+
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+        ☰
+      </button>
+
+      <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <h1>Hola, soy <span>Yessyca Santillan</span></h1>
+      <p>
+        Frontend Developer | PrestaShop & WordPress | SEO Técnico
+      </p>
+      <a class="button" href="#proyectos">Ver mis proyectos</a>
+    </section>
+
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>
+        Desarrollo e-commerce rápidos, accesibles (WCAG) y que convierten. Integro Figma, APIs y SEO técnico para tiendas que venden.
+      </p>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="projects">
+        <article class="project">
+          <h3>Proyecto 1</h3>
+          <p>En Tejidos Girona. Personalicé módulos y temas responsive en PrestaShop (Smarty, PHP, JS). Automaticé la carga de catálogo con Excel/PHP (-60% tiempo) y sincronización con ERP. 
+            Optimicé SEO on-page, Core Web Vitals y gestioné Google Ads. Diseñé en Figma y generé contenido con IA Generativa.</p>
+        </article>
+        <article class="project">
+          <h3>Proyecto 2</h3>
+          <p>Diseñé y desarrollé webs responsive con PHP y CSS3, optimizadas para WCAG y Core Web Vitals. Gestión integral de plugins (SEO, seguridad, caché, analytics) con integración a
+             código personalizado y prácticas de staging y lazy loading.</p>
+        </article>
+        <article class="project">
+          <h3>Proyecto 3</h3>
+          <p>Proyectos desde cero. Desarrollo de webs accesibles (WCAG) y centradas en UX con HTML5, CSS3, JS, Bootstrap y Ajax. Uso de IA para auditorías de accesibilidad, alt text y optimización
+             por A/B testing. Control de versiones con GitHub</p>
+        </article>
       </div>
+    </section>
 
-    </div>
+    <section class="contact" id="contacto">
+      <h2>Contacto</h2>
+      <p>Escríbeme a <a href="mailto:correo@ejemplo.com">yessworkinf@gmail.com</a>.</p>
+    </section>
+  </main>
 
+  <footer>
+    <p>© 2026 Yessyca. Todos los derechos reservados.</p>
+  </footer>
 
+  <script>
+    const menuToggle = document.querySelector(".menu-toggle");
+    const menu = document.querySelector(".menu");
 
-    <div class="header">
-      <div class="divitem1">
+    menuToggle.addEventListener("click", () => {
+      const isOpen = menu.classList.toggle("open");
+      menuToggle.setAttribute("aria-expanded", isOpen);
+      menuToggle.setAttribute("aria-label", isOpen ? "Cerrar menú" : "Abrir menú");
+      menuToggle.textContent = isOpen ? "✕" : "☰";
+    });
 
-        <a target="_blank" href="https://github.com/AraSancor"><img src="img/gihub.png" alt="Git"></a>
-
-        <a target="_blank" href="https://www.linkedin.com/in/yessworkinf/"><img src="img/linke.png" alt="linkedin"></a>
-
-        <a target="_blank" href="https://www.sololearn.com/profile/20814628"><img src="img/solo.png"
-            alt="sololearn"></a>
-
-      </div>
-
-      <div class="divitem2">
-
-        <div class="flex">
-          <div>
-            <a target="_blank" href="https://arasancor.github.io/Portfolio-Yess/html/sobremi.html"><img
-                src="./img/avatarARA.jpg" alt="Ara"></a>
-          </div>
-
-          <div>
-            <h1>YESSYCA SANTILLAN</h1>
-            <h2>Frontend Developer | PrestaShop & WordPress | SEO Técnico</h2>
-
-            <div class="flex">
-              <a class="item1a" href="./html/indexCV.html" target="_blank">Currículum</a>
-
-            </div>
-      
-            <div class="flex">
-              <a class="item1a" href="./html/trabajos.html" target="_blank">Proyectos</a>
-
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-
-    <div class="aside">
-      <div class="card"></div>
-      <div id="texto">
-      </div>
-      <script src="js/frase.js"></script>
-    </div>
-
-
-    <div class="footer">
-
-
-      <div class="divitem4">
-        <div>
-          <p>Contacto: yessworkinf@gmail.com</p>
-        </div>
-        <div><a target="_blank" href="https://github.com/AraSancor"><img src="img/gihub.png" alt=""></a></div>
-        <div> <a target="_blank" href="https://www.linkedin.com/in/yessworkinf/"><img src="img/linke.png" alt=""></a>
-        </div>
-        <div><a target="_blank" href="https://www.sololearn.com/profile/20814628"><img src="img/solo.png" alt=""></a>
-        </div>
-      </div>
-      <hr>
-      <div class="mod">
-
-        <p> © 2026 Yessyca Santillan</p>
-
-      </div>
-    </div>
-  </div>
+    menu.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        menu.classList.remove("open");
+        menuToggle.setAttribute("aria-expanded", "false");
+        menuToggle.setAttribute("aria-label", "Abrir menú");
+        menuToggle.textContent = "☰";
+      });
+    });
+  </script>
 </body>
-
 </html>
