@@ -1,91 +1,130 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Portfolio</title>
-  <link rel="icon" type="image/jpg" href="../img/avatarARA.jpg" />
-  <link rel="stylesheet" href="../css/sobreMi.css">
+  <meta name="description" content="Portfolio de una Frontend Developer especializada en e-commerce, accesibilidad y rendimiento web.">
+  <title>Frontend Developer · Portfolio</title>
+   <link rel="icon" type="image/jpg" href="img/avatarARA.jpg">
+    <link rel="stylesheet" href="../css/sobremi.css">
+  
 </head>
-
 <body>
-  <div class="grid-container">
-    <div class="menu">
-      <div class="topnav" id="myTopnav">
-        <a href="../index.html">Inicio</a>
-        <a href="../html/sobremi.html" class="active">Sobre mi</a>
-        <a href="../html/proyectos.html">Proyectos</a>
-        <a href="../html/contacto.html">Contacto</a>
-               
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-        </div>
-        <script src="../js/menu.js"></script>
-        
-        </div>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-
-    <div class="aside">
-      
-      <div class="imgtext">
-        <h1>Yessyca</h1>
-
-        <a target="_blank" href="https://github.com/AraSancor"><img src="../img/gihub.png" alt=""></a>
-        <a target="_blank" href="https://www.linkedin.com/in/yessworkinf/"><img src="../img/linke.png" alt=""></a>
-        <a target="_blank" href="https://www.sololearn.com/profile/20814628"><img src="../img/solo.png" alt=""></a>
-      </div>
-
-      <div class="box">
-       
-
-        <p>Soy Frontend Developer especializada en e-commerce que vende, no solo que se ve bonito.</p>
-
-        <p>Me obsesiona el detalle: tipografía que se lee, interacción que se entiende, accesibilidad real 
-          (WCAG 2.2) y rendimiento que se nota en Core Web Vitals.</p>
-
-<p>Mi stack diario es PrestaShop y WordPress con HTML5, CSS3, JavaScript, React y TypeScript. Diseño y prototipo en Figma, 
-  integro APIs REST y llevo el SEO técnico desde la primera línea de código, no como parche al final.</p>
-  <p>Lo que me diferencia: automatizo lo aburrido. Sincronizo catálogos con Excel + PHP + ERP, y uso IA 
-    Generativa para escalar contenido sin perder calidad.</p>
-  <p>Trabajo codo a codo con Backend. Código limpio, escalable y documentado.</p>
-  <p>Stack principal: React | TypeScript | PrestaShop (Smarty/PHP) | WordPress | Figma | Git</p>
-  <p>Cómo trabajo: Toma de requisitos, aprendizaje continuo, proactividad, comunicación clara y trabajo en equipo.</p>
-  <p>Idiomas: Español Nativo | Català B1 Profesional | English B2 Technical</p>
-
-       
-      </div>
-
+  <header>
+    <div class="nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Inicio — Portfolio">portfolio<span>.</span></a>
+      <nav aria-label="Navegación principal">
+        <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="./proyectos.html">Proyectos</a></li>
+        <li><a href="./contacto.html">Contacto</a></li>
+        <li><a href="./indexCV.html">CV</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
 
-   
-    </div>
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="titulo">
+      <span class="eyebrow">Frontend Developer · E-commerce</span>
+      <h1 id="titulo">Experiencias digitales que funcionan y venden.</h1>
+      <p>
+        Soy <strong>Frontend Developer especializada en e-commerce</strong> que vende,
+        no solo que se ve bonito. Me obsesiona el detalle: tipografía que se lee,
+        interacción que se entiende, accesibilidad real (WCAG 2.2) y rendimiento que
+        se nota en Core Web Vitals.
+      </p>
+      <a class="button" href="#sobre-mi">Conoce mi trabajo</a>
+    </section>
 
-
-    <div class="footer">
-
-      <div>
-        <p>Contacto: yessworkinf@gmail.com</p>
-
-        <a target="_blank" href="https://github.com/AraSancor"><img src="../img/gihub.png" alt=""></a>
-        <a target="_blank" href="https://www.linkedin.com/in/yessworkinf/"><img src="../img/linke.png" alt=""></a>
-        <a target="_blank" href="https://www.sololearn.com/profile/20814628"><img src="../img/solo.png" alt=""></a>
-
+    <section class="content-section" id="sobre-mi" aria-labelledby="sobre-mi-titulo">
+      <div class="section-heading">
+        <h2 id="sobre-mi-titulo">Sobre mí</h2>
+        <p>Diseño y desarrollo con intención, desde la primera línea de código.</p>
       </div>
-      <hr>
-      <div class="mod">
-
-        <p> © 2026 Yessyca Santillan</p>
-        
+      <div class="card">
+        <p>
+          Mi stack diario es PrestaShop y WordPress con HTML5, CSS3, JavaScript,
+          React y TypeScript. Diseño y prototipo en Figma, integro APIs REST y llevo
+          el SEO técnico desde la primera línea de código, no como parche al final.
+        </p>
       </div>
+    </section>
 
+    <section class="content-section" id="especialidades" aria-labelledby="especialidades-titulo">
+      <div class="section-heading">
+        <h2 id="especialidades-titulo">Lo que me diferencia</h2>
+        <p>Automatizo procesos para dedicar más tiempo a lo que aporta valor.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Automatización inteligente</h3>
+          <p>
+            Sincronizo catálogos con Excel + PHP + ERP, y uso IA Generativa para
+            escalar contenido sin perder calidad.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Trabajo en equipo</h3>
+          <p>
+            Trabajo codo a codo con Backend. Creo código limpio, escalable y
+            documentado.
+          </p>
+        </article>
+      </div>
+    </section>
 
+    <section class="content-section" id="stack" aria-labelledby="stack-titulo">
+      <div class="section-heading">
+        <h2 id="stack-titulo">Stack principal</h2>
+        <p>Herramientas que uso para convertir ideas en experiencias digitales.</p>
+      </div>
+      <div class="card">
+        <ul class="tags" aria-label="Tecnologías principales">
+          <li>React</li>
+          <li>TypeScript</li>
+          <li>PrestaShop</li>
+          <li>Smarty / PHP</li>
+          <li>WordPress</li>
+          <li>Figma</li>
+          <li>Git</li>
+        </ul>
+      </div>
+    </section>
 
-    </div>
-  </div>
+    <section class="content-section" id="forma-de-trabajo" aria-labelledby="trabajo-titulo">
+      <div class="section-heading">
+        <h2 id="trabajo-titulo">Cómo trabajo</h2>
+        <p>Una forma de colaborar basada en la claridad y la mejora continua.</p>
+      </div>
+      <div class="card">
+        <ul class="tags" aria-label="Habilidades y metodología">
+          <li>Toma de requisitos</li>
+          <li>Aprendizaje continuo</li>
+          <li>Proactividad</li>
+          <li>Comunicación clara</li>
+          <li>Trabajo en equipo</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content-section" id="idiomas" aria-labelledby="idiomas-titulo">
+      <div class="section-heading">
+        <h2 id="idiomas-titulo">Idiomas</h2>
+      </div>
+      <ul class="languages">
+        <li>Español · Nativo</li>
+        <li>Català · B1 Profesional</li>
+        <li>English · B2 Technical</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Portfolio · Frontend Developer especializada en e-commerce</p>
+  </footer>
 </body>
-
 </html>
