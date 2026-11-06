@@ -1,130 +1,106 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio de una Frontend Developer especializada en e-commerce, accesibilidad y rendimiento web.">
-  <title>Frontend Developer · Portfolio</title>
-   <link rel="icon" type="image/jpg" href="../img/avatarARA.jpg">
-    <link rel="stylesheet" href="../css/sobremi.css">
-  
-</head>
-<body>
-  <a class="skip-link" href="#contenido">Saltar </a>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Yessyca, desarrolladora frontend especializada en e-commerce." />
+  <title>Yessyca | Frontend & E-commerce</title>
+  <link rel="stylesheet" href="../css/sobremi.css">
+  <link rel="icon" type="image/jpg" href="../img/avatarARA.jpg">
+
+
+
+</head>
+
+<body>
   <header>
-    <div class="nav-wrap">
-      <a class="brand" href="#inicio" aria-label="Inicio — Portfolio">portfolio<span>.</span></a>
-      <nav aria-label="Navegación principal">
-        <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="#sobre-mi">Sobre mí</a></li>
-        <li><a href="./proyectos.html">Proyectos</a></li>
-        <li><a href="./contacto.html">Contacto</a></li>
-        <li><a href="./indexCV.html">CV</a></li>
-        </ul>
-      </nav>
-    </div>
+    <a class="logo" href="#inicio">Yessyca<span class="texto-acento">.</span></a>
+
+    <nav aria-label="Menú principal">
+      <a href="../index.html">Inicio</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="./proyectos.html">Proyectos</a>
+      <a href="./contacto.html">Contacto</a>
+    </nav>
   </header>
 
-  <main id="contenido">
-    <section class="hero" id="inicio" aria-labelledby="titulo">
-      <span class="eyebrow">Frontend Developer · E-commerce</span>
-      <h1 id="titulo">Experiencias digitales que funcionan y venden.</h1>
-      <p>
-        Soy <strong>Frontend Developer especializada en e-commerce</strong> que vende,
-        no solo que se ve bonito. Me obsesiona el detalle: tipografía que se lee,
-        interacción que se entiende, accesibilidad real (WCAG 2.2) y rendimiento que
-        se nota en Core Web Vitals.
-      </p>
-      <a class="button" href="#sobre-mi">Conoce mi trabajo</a>
-    </section>
-
-    <section class="content-section" id="sobre-mi" aria-labelledby="sobre-mi-titulo">
-      <div class="section-heading">
-        <h2 id="sobre-mi-titulo">Sobre mí</h2>
-        <p>Diseño y desarrollo con intención, desde la primera línea de código.</p>
-      </div>
-      <div class="card">
+  <main>
+    <section class="hero" id="inicio">
+      <div>
+        <span class="etiqueta">Desarrolladora frontend · E-commerce</span>
+        <h1>Ideas bonitas.<br />Tiendas que <span class="texto-acento">venden.</span></h1>
         <p>
-          Mi stack diario es PrestaShop y WordPress con HTML5, CSS3, JavaScript,
-          React y TypeScript. Diseño y prototipo en Figma, integro APIs REST y llevo
-          el SEO técnico desde la primera línea de código, no como parche al final.
+          Soy Yessyca. Transformo ideas en tiendas online rápidas, accesibles
+          y fáciles de gestionar, preparadas para crecer junto a tu negocio.
         </p>
+        <a class="boton" href="#contacto">Hablemos de tu proyecto</a>
       </div>
+
+      <img class="foto-principal" src="../img/tiendaVirtual.jpg" alt="Ropa y productos de una tienda online" />
     </section>
 
-    <section class="content-section" id="especialidades" aria-labelledby="especialidades-titulo">
-      <div class="section-heading">
-        <h2 id="especialidades-titulo">Lo que me diferencia</h2>
-        <p>Automatizo procesos para dedicar más tiempo a lo que aporta valor.</p>
-      </div>
-      <div class="grid">
-        <article class="card">
-          <h3>Automatización inteligente</h3>
-          <p>
-            Sincronizo catálogos con Excel + PHP + ERP, y uso IA Generativa para
-            escalar contenido sin perder calidad.
-          </p>
+    <section class="sobre-mi" id="sobre-mi">
+      <span class="etiqueta">Un poco sobre mí</span>
+      <h2>Diseño y tecnología, con intención.</h2>
+      <p>
+        Me encanta transformar una idea en una tienda que funciona de verdad:
+        bonita, rápida, accesible y fácil de gestionar. He creado temas desde
+        cero, optimizado SEO y velocidad, y automatizado catálogos para que los
+        equipos puedan dedicarse a vender, no a pelearse con Excel.
+      </p>
+    </section>
+
+    <section class="proyectos" id="proyectos">
+      <span class="etiqueta">Trabajo seleccionado</span>
+      <h2>Proyectos</h2>
+
+      <div class="rejilla">
+        <article class="proyecto">
+          <img src="../img/ttelas.jpg" alt="tienda online de telas" />
+          <h3>Tienda de telas</h3>
+          <p>Temas responsive desde cero con HTML5, CSS3, JavaScript, Smarty y PHP.
+            
+            <br>Módulos a medida: carrito, filtros,
+            búsqueda y paginación.Fichas, landings y emails de alta conversión.
+            
+            <br>Automatización de catálogos con Excel +
+            PHP y sincronización de stock y precios con ERP.
+            
+            <br>UI/UX en Figma e integración en el tema.SEO on-page,
+            auditoría técnica, WPO y Google Ads.
+            
+            <br>Contenido escalable con IA para blog, banners y ficha</p>
         </article>
-        <article class="card">
-          <h3>Trabajo en equipo</h3>
-          <p>
-            Trabajo codo a codo con Backend. Creo código limpio, escalable y
-            documentado.
-          </p>
+
+        <article class="proyecto">
+          <img src="../img/freeelance.jpg" alt="freelance" />
+          <h3>Freelance</h3>
+          <p>Desarrollo desde cero de sitios web accesibles, siguiendo criterios WCAG.
+            Creación de sistemas de diseño y plantillas reutilizables con React, Bootstrap y Ajax.
+            Auditorías de accesibilidad, optimización de textos alternativos y métricas UX.</p>
+        </article>
+
+        <article class="proyecto">
+          <img src="../img/aen.png" alt="Reloj de pulsera de una tienda online" />
+          <h3>Red multisite</h3>
+          <p>Desarrollo con WordPress, PHP y CSS3.
+            Gestión de plugins de SEO, seguridad, WPO y caché; optimización del rendimiento.</p>
         </article>
       </div>
     </section>
 
-    <section class="content-section" id="stack" aria-labelledby="stack-titulo">
-      <div class="section-heading">
-        <h2 id="stack-titulo">Stack principal</h2>
-        <p>Herramientas que uso para convertir ideas en experiencias digitales.</p>
-      </div>
-      <div class="card">
-        <ul class="tags" aria-label="Tecnologías principales">
-          <li>React</li>
-          <li>TypeScript</li>
-          <li>PrestaShop</li>
-          <li>Smarty / PHP</li>
-          <li>WordPress</li>
-          <li>Figma</li>
-          <li>Git</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="content-section" id="forma-de-trabajo" aria-labelledby="trabajo-titulo">
-      <div class="section-heading">
-        <h2 id="trabajo-titulo">Cómo trabajo</h2>
-        <p>Una forma de colaborar basada en la claridad y la mejora continua.</p>
-      </div>
-      <div class="card">
-        <ul class="tags" aria-label="Habilidades y metodología">
-          <li>Toma de requisitos</li>
-          <li>Aprendizaje continuo</li>
-          <li>Proactividad</li>
-          <li>Comunicación clara</li>
-          <li>Trabajo en equipo</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="content-section" id="idiomas" aria-labelledby="idiomas-titulo">
-      <div class="section-heading">
-        <h2 id="idiomas-titulo">Idiomas</h2>
-      </div>
-      <ul class="languages">
-        <li>Español · Nativo</li>
-        <li>Català · B1 Profesional</li>
-        <li>English · B2 Technical</li>
-      </ul>
+    <section class="contacto" id="contacto">
+      <span class="etiqueta">¿Lo hacemos realidad?</span>
+      <h2>Tu próxima tienda puede empezar aquí.</h2>
+      <p>Cuéntame tu idea y trabajemos en una tienda que puedas hacer crecer.</p>
+      <a class="boton" href="mailto:hola@yessyca.com">Escríbeme</a>
     </section>
   </main>
 
   <footer>
-    <p>Portfolio · Frontend Developer especializada en e-commerce</p>
+    <p>© 2026 Yessyca · Desarrolladora frontend</p>
   </footer>
 </body>
+
 </html>
