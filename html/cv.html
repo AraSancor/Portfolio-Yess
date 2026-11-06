@@ -1,23 +1,25 @@
+
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta
     name="description"
     content="Currículum de Yessyca Santillan, SEO y Frontend Web Developer especializada en e-commerce, accesibilidad y rendimiento."
-  />
-  <title>Yessyca Santillan | SEO & Frontend Web Developer</title>
-    <link rel="icon" type="image/jpg" href="../img/avatarARA.jpg">
-  <link rel="stylesheet" href="../css/cv.css">
+  >
+  <title>Yessyca Santillan | SEO &amp; Frontend Web Developer</title>
 
+    <link rel="icon" type="image/jpg" href="../img/avatarARA.jpg">
+
+  <link rel="stylesheet" href="../css/cv.css">
 </head>
 
 <body>
   <header class="site-header">
     <nav class="nav-wrap" aria-label="Navegación principal">
       <a class="brand" href="#inicio">Yessyca <span>Santillan</span></a>
-
 
       <button
         class="menu-toggle"
@@ -29,7 +31,6 @@
       </button>
 
       <ul class="nav-links" id="nav-links">
-        <li><a href="../index.html" target="_blank">Portfolio</a></li>
         <li><a href="#acerca">Acerca de mí</a></li>
         <li><a href="#stack">Stack técnico</a></li>
         <li><a href="#experiencia">Experiencia</a></li>
@@ -52,11 +53,12 @@
             y código sólido para crear experiencias digitales útiles,
             inclusivas y orientadas a resultados.
           </p>
+
           <div class="hero-actions">
             <a class="button" href="#experiencia">Ver experiencia</a>
-        <!--     <button class="button secondary" type="button" onclick="window.print()">
-              Descargar / imprimir CV-->
-            </button>
+           <!--  <button class="button" type="button" onclick="window.print()">
+              Imprimir / guardar PDF
+            </button>--> 
           </div>
         </div>
       </section>
@@ -70,7 +72,7 @@
         <div class="card about-grid">
           <div>
             <p>
-              Mi obsesión es que cada píxel sea usable, inclusivo y convierta.
+              Mi obsesión es que cada píxel sea usable e inclusivo.
               Controlo el ciclo completo: desde el sistema de diseño en Figma
               hasta la interactividad con JavaScript y React.
             </p>
@@ -103,17 +105,14 @@
             <h3>Frontend — Core</h3>
             <p>HTML5, CSS3, JavaScript (ES6+), TypeScript, React, SASS, Bootstrap, XML</p>
           </article>
-
           <article class="skill-card">
             <h3>Herramientas y diseño</h3>
             <p>Git, GitHub, Figma, Adobe CC (Photoshop, Illustrator), FileZilla, LaTeX</p>
           </article>
-
           <article class="skill-card">
             <h3>Growth, datos e IA</h3>
             <p>Google Search Console, Google Analytics, Google Ads, ChatGPT, Leonardo.AI</p>
           </article>
-
           <article class="skill-card">
             <h3>SEO y optimización</h3>
             <p>SEO técnico, auditorías, WPO, Core Web Vitals, contenidos y A/B Testing</p>
@@ -211,19 +210,16 @@
             <h3>Creación y publicación de páginas web</h3>
             <p>Certificado de Profesionalidad Nivel 2 (IFCD0110), SOC / SEPE. HTML5, CSS3, JavaScript, WordPress, accesibilidad y SEO.</p>
           </article>
-
           <article class="education-card">
             <span class="year">2017–2018</span>
             <h3>Creación y gestión de microempresas</h3>
             <p>Certificado de Profesionalidad, SOC / SEPE. Plan de empresa, marketing, fiscalidad y gestión.</p>
           </article>
-
           <article class="education-card">
             <span class="year">2005–2011</span>
             <h3>Ingeniería en Computación — Sistemas</h3>
             <p>UABC, México. Formación en ingeniería de software, bases de datos, redes y lógica de programación.</p>
           </article>
-
           <article class="education-card">
             <span class="year">1998–2001</span>
             <h3>Bachillerato Tecnológico — Informática</h3>
@@ -259,21 +255,8 @@
     <p>Yessyca Santillan · SEO &amp; Frontend Web Developer</p>
   </footer>
 
-  <script>
-    const menuToggle = document.querySelector(".menu-toggle");
-    const navLinks = document.querySelector(".nav-links");
-
-    menuToggle.addEventListener("click", () => {
-      const isOpen = navLinks.classList.toggle("open");
-      menuToggle.setAttribute("aria-expanded", String(isOpen));
-    });
-
-    navLinks.querySelectorAll("a").forEach((link) => {
-      link.addEventListener("click", () => {
-        navLinks.classList.remove("open");
-        menuToggle.setAttribute("aria-expanded", "false");
-      });
-    });
+  <script src="../js/menucv.js">
+   
   </script>
 </body>
 </html>
