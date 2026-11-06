@@ -1,100 +1,145 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio personal y proyectos">
-
+  <meta name="description" content="Portfolio personal y proyectos de Yessyca Santillan">
   <link rel="icon" type="image/jpg" href="img/avatarARA.jpg">
   <link rel="stylesheet" href="./css/index.css">
-  <title>Mi Portfolio</title>
-
-
+  <title>Portfolio | Yessyca Santillan</title>
 </head>
-
 <body>
-  <header>
-    <nav aria-label="Navegación principal">
-      <a class="logo" href="#inicio">Mi Portfolio</a>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Navegación principal">
+      <a class="logo" href="#inicio">YS<span>.</span></a>
 
-      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
-        ☰
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
 
-      <ul class="menu">
-        <li><a href="#inicio">Inicio</a></li>
+      <ul class="menu" id="menu">
+      
         <li><a href="./html/mi.html">Sobre mí</a></li>
         <li><a href="./html/proyectos.html">Proyectos</a></li>
         <li><a href="./html/contacto.html">Contacto</a></li>
-        <li><a href="./html/cv.html" target="_blank">CV</a></li>
-          
-
-
+        <li><a class="menu-cv" href="./html/cv.html" target="_blank" rel="noopener">Ver CV</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="hero" id="inicio">
-      <h1>Hola, soy<span>Yessyca Santillan</span></h1>
-      <p>
-        Frontend Developer | PrestaShop & WordPress | SEO Técnico
-      </p>
-      <a class="button" href="#proyectos">Ver mis proyectos</a>
-      <br>
-      <a class="button" href="./html/cv.html" target="_blank">CV</a>
+    <section class="hero section-wrap" id="inicio">
+      <div class="hero-content">
+        <span class="eyebrow">PORTFOLIO · DESARROLLO WEB</span>
+        <h1>Hola, soy <span>Yessyca Santillan</span></h1>
+        <p class="hero-description">
+          Frontend Developer especializada en PrestaShop, WordPress y SEO técnico.
+          Creo experiencias web accesibles, rápidas y pensadas para convertir.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proyectos">Ver mis proyectos <span aria-hidden="true">→</span></a>
+          <a class="button button-outline" href="./html/cv.html" target="_blank" rel="noopener">Ver mi CV</a>
+        </div>
+      </div>
+
+      <div class="hero-decoration" aria-hidden="true">
+        <div class="decoration-circle">YS</div>
+        <span class="decoration-dot dot-one"></span>
+        <span class="decoration-dot dot-two"></span>
+      </div>
     </section>
 
-    <section id="sobre-mi">
-      <h2>Sobre mí</h2>
+    <section class="about section-wrap" id="sobre-mi">
+      <div class="section-heading">
+        <span class="eyebrow">UN POCO SOBRE MÍ</span>
+        <h2>Diseño y desarrollo <span>con propósito</span></h2>
+      </div>
       <p>
-        Desarrollo e-commerce rápidos, accesibles (WCAG) y que convierten. Integro Figma, APIs y SEO técnico para
-        tiendas que venden.
+        Desarrollo e-commerce rápidos, accesibles y orientados a resultados.
+        Integro diseños de Figma, APIs y SEO técnico para ayudar a las tiendas
+        online a ofrecer una mejor experiencia y vender más.
       </p>
     </section>
 
-    <section id="proyectos">
-      <h2>Proyectos</h2>
+    <section class="projects-section section-wrap" id="proyectos">
+      <div class="section-heading">
+        <span class="eyebrow">MI TRABAJO</span>
+        <h2>Proyectos <span>destacados</span></h2>
+        <p>Experiencia práctica creando y optimizando soluciones digitales.</p>
+      </div>
+
       <div class="projects">
         <article class="project">
-          <h3>Proyecto 1</h3>
-          <p>En Tejidos Girona. Personalicé módulos y temas responsive en PrestaShop (Smarty, PHP, JS). Automaticé la
-            carga de catálogo con Excel/PHP (-60% tiempo) y sincronización con ERP.
-            Optimicé SEO on-page, Core Web Vitals y gestioné Google Ads. Diseñé en Figma y generé contenido con IA
-            Generativa.</p>
+          <span class="project-number">01</span>
+          <h3>E-commerce con PrestaShop</h3>
+          <p>
+            Personalicé módulos y temas responsive con Smarty, PHP y JavaScript.
+            Automaticé la carga de catálogo con Excel y PHP, reduciendo el tiempo
+            un 60%, y trabajé en sincronización con ERP, SEO y Core Web Vitals.
+          </p>
+          <div class="tags"><span>PrestaShop</span><span>PHP</span><span>SEO</span></div>
         </article>
+
         <article class="project">
-          <h3>Proyecto 2</h3>
-          <p>Diseñé y desarrollé webs responsive con PHP y CSS3, optimizadas para WCAG y Core Web Vitals. Gestión
-            integral de plugins (SEO, seguridad, caché, analytics) con integración a
-            código personalizado y prácticas de staging y lazy loading.</p>
+          <span class="project-number">02</span>
+          <h3>Webs con WordPress</h3>
+          <p>
+            Diseñé y desarrollé webs responsive con PHP y CSS3, optimizadas para
+            WCAG y Core Web Vitals. Gestioné plugins de SEO, seguridad, caché y
+            analítica, además de integrar código personalizado.
+          </p>
+          <div class="tags"><span>WordPress</span><span>Accesibilidad</span><span>CSS3</span></div>
         </article>
+
         <article class="project">
-          <h3>Proyecto 3</h3>
-          <p>Proyectos desde cero. Desarrollo de webs accesibles (WCAG) y centradas en UX con HTML5, CSS3, JS, Bootstrap
-            y Ajax. Uso de IA para auditorías de accesibilidad, alt text y optimización
-            por A/B testing. Control de versiones con GitHub</p>
+          <span class="project-number">03</span>
+          <h3>Desarrollo desde cero</h3>
+          <p>
+            Creé webs accesibles y centradas en UX con HTML5, CSS3, JavaScript,
+            Bootstrap y Ajax. También utilicé auditorías de accesibilidad,
+            optimización de contenido y control de versiones con GitHub.
+          </p>
+          <div class="tags"><span>JavaScript</span><span>UX/UI</span><span>GitHub</span></div>
         </article>
       </div>
     </section>
 
-    <section class="contact" id="contacto">
-      <h2>Contacto</h2>
-      <p>Escríbeme a :<a href="mailto:correo@ejemplo.com" target="_blank">yessworkinf@gmail.com</a>.</p>
-      <p>Linkedin:<a href="https://www.linkedin.com/in/yessworkinf/" target="_blank"> https://www.linkedin.com/in/yessworkinf/</a>.</p>
-      <p>GiHub:<a href="https://github.com/AraSancor" target="_blank"> https://github.com/AraSancor</a>.</p>
+    <section class="contact section-wrap" id="contacto">
+      <div class="section-heading">
+        <span class="eyebrow">HABLEMOS</span>
+        <h2>¿Tienes un proyecto <span>en mente?</span></h2>
+        <p>Estoy disponible para nuevas oportunidades y colaboraciones.</p>
+      </div>
 
+      <div class="contact-links">
+        <a href="mailto:yessworkinf@gmail.com">
+          <span class="contact-label">Correo</span>
+          <span>yessworkinf@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/yessworkinf/" target="_blank" rel="noopener">
+          <span class="contact-label">LinkedIn</span>
+          <span>Ver perfil →</span>
+        </a>
+        <a href="https://github.com/AraSancor" target="_blank" rel="noopener">
+          <span class="contact-label">GitHub</span>
+          <span>Ver proyectos →</span>
+        </a>
+      </div>
     </section>
   </main>
 
-  <footer>
-    <p>© 2026 Yessyca. Todos los derechos reservados.</p>
+  <footer class="site-footer">
+    <p>© 2026 Yessyca Santillan. Todos los derechos reservados.</p>
   </footer>
 
-  <script src="./js/menuindex.js">
-
-  </script>
+  <script src="./js/menuindex.js"></script>
 </body>
-
 </html>
