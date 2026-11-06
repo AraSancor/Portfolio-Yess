@@ -5,18 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Portfolio de proyectos de desarrollo frontend">
   <title>Mi portfolio | Frontend</title>
-  <link rel="icon" type="image/jpg" href="../img/avatarARA.jpg" />
+  <link rel="icon" type="image/jpg" href="../img/avatarARA.jpg">
+
   <link rel="stylesheet" href="../css/proyectos.css">
 
+
 </head>
+
 <body>
   <header>
     <a class="logo" href="#">Yessyca Santillan</a>
-    <nav aria-label="Navegación principal">
-           
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Abrir menú"
+      aria-expanded="false"
+      aria-controls="menu-principal"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="menu-principal" aria-label="Navegación principal">
       <a href="../index.html">Inicio</a>
-      <a href="./mi.html">Sobre mi</a>
-      <a href="#proyectos">Proyectos</a>
+      <a href="./mi.html">Sobre mí</a>
       <a href="./contacto.html">Contacto</a>
     </nav>
   </header>
@@ -26,8 +40,8 @@
       <p>DESARROLLADOR/A FRONTEND</p>
       <h1>Creo experiencias web atractivas y funcionales.</h1>
       <p class="hero-description">
-        Soy Yessyca Santillan, desarrollador/a frontend. Aquí puedes explorar algunos
-        de mis proyectos y las tecnologías que utilizo.
+        Soy Yessyca Santillan, desarrolladora frontend. Aquí puedes explorar
+        algunos de mis proyectos y las tecnologías que utilizo.
       </p>
     </section>
 
@@ -41,23 +55,25 @@
         <article class="project-card">
           <div class="project-image">Calculadora</div>
           <div class="project-content">
-           <h3>Frontend Developer</h3>
-            <p>Calculadora responsive desarrollada desde cero en React con enfoque en lógica, estado y experiencia de usuario.
-                 Interfaz limpia y accesible (WCAG), manejo de operaciones complejas, control de errores y diseño con micro-interacciones. 
-                 Código modular, reutilizable y optimizado para rendimiento.</p>
+            <h3>Frontend Developer</h3>
+            <p>
+              Calculadora responsive desarrollada desde cero en React con enfoque
+              en lógica, estado y experiencia de usuario. Interfaz limpia y
+              accesible (WCAG), manejo de operaciones complejas, control de
+              errores y diseño con microinteracciones.
+            </p>
             <div class="tags">
-            
-              <spa>React</spa>
-              <spa>JavaScript</spa>
-              <spa>HTML5</spa>
-              <spa>CSS3</spa>
-              <spa>Hooks(useState)</spa>
-              <spa>Visual Studio Code</spa>
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Hooks (useState)</span>
+              <span>Visual Studio Code</span>
               <span>Git/GitHub</span>
             </div>
             <div class="project-links">
-              <a href="https://github.com/AraSancor/calculadora-react" target="_blank" rel="noreferrer">GitHub</a>
-            
+              <a href="https://github.com/AraSancor/calculadora-react"
+                 target="_blank" rel="noreferrer">GitHub</a>
             </div>
           </div>
         </article>
@@ -65,22 +81,24 @@
         <article class="project-card">
           <div class="project-image">Mini juego Adivina</div>
           <div class="project-content">
-                 <h3>Frontend Developer</h3>
-            <p>Juego web interactivo desarrollado en React que desafía al usuario a adivinar un número aleatorio. Enfocado en lógica de juego, manejo de estado, 
-                validación de inputs y feedback instantáneo al usuario. Interfaz lúdica, 100% responsive, accesible (WCAG) y con micro-interacciones
-                 para mejorar la experiencia.</p>
+            <h3>Frontend Developer</h3>
+            <p>
+              Juego web interactivo desarrollado en React que desafía al usuario
+              a adivinar un número aleatorio. Incluye validación de entradas,
+              feedback instantáneo y una interfaz responsive y accesible.
+            </p>
             <div class="tags">
-             <spa>React</spa>
-              <spa>JavaScript</spa>
-              <spa>HTML5</spa>
-              <spa>CSS3</spa>
-              <spa>Hooks (useState, useEffect)</spa>
-              <spa>Visual Studio Code</spa>
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Hooks (useState, useEffect)</span>
+              <span>Visual Studio Code</span>
               <span>Git/GitHub</span>
             </div>
             <div class="project-links">
-
-              <a href="https://github.com/AraSancor/aventura-adivina" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://github.com/AraSancor/aventura-adivina"
+                 target="_blank" rel="noreferrer">GitHub</a>
             </div>
           </div>
         </article>
@@ -88,36 +106,36 @@
         <article class="project-card">
           <div class="project-image">Tienda online</div>
           <div class="project-content">
-                 <h3>SEO, Frontend Web Developer & Content Manager</h3>
-                 <h3>Tejidos Yasmina</h3>
-       
-            <p> Personalicé módulos y temas responsive en PrestaShop (Smarty, PHP, JS). Automaticé la carga de catálogo con Excel/PHP 
-                (-60% tiempo) y sincronización con ERP. Optimicé SEO on-page, Core Web Vitals y gestioné Google Ads. Diseñé en Figma y 
-                generé contenido con IA Generativa.</p>
+            <h3>SEO, Frontend Web Developer &amp; Content Manager</h3>
+            <h3>Tejidos Yasmina</h3>
+            <p>
+              Personalicé módulos y temas responsive en PrestaShop (Smarty, PHP,
+              JS). Automaticé la carga de catálogo con Excel/PHP y optimicé SEO
+              on-page, Core Web Vitals y campañas de Google Ads.
+            </p>
             <div class="tags">
-            <spa>JavaScript</spa>
-              <spa>HTML5</spa>
-              <spa>CSS3</spa>
-                 <spa>PrestaShop 1.7</spa>
-                 <span>Excel</span>
+              <span>JavaScript</span>
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>PrestaShop 1.7</span>
+              <span>Excel</span>
             </div>
-          
           </div>
         </article>
 
-<article class="project-card">
+        <article class="project-card">
           <div class="project-image">Premisetech</div>
           <div class="project-content">
-                   <h3>SEO, Frontend Web Developer & Content Manager</h3>
-          <h3>AENTEG</h3>
-            <p>Diseñé y desarrollé webs responsive con PHP y CSS3, optimizadas para WCAG y Core Web Vitals. Gestión integral de plugins
-                 (SEO, seguridad, caché, analytics) con integración a código personalizado y prácticas de staging y lazy loading.</p>
-            <div class="tags">
-            
-            </div>
+            <h3>SEO, Frontend Web Developer &amp; Content Manager</h3>
+            <h3>AENTEG</h3>
+            <p>
+              Diseñé y desarrollé webs responsive con PHP y CSS3, optimizadas
+              para WCAG y Core Web Vitals. Gestioné plugins de SEO, seguridad,
+              caché y analítica.
+            </p>
             <div class="project-links">
-              <a href="https://www.premisetech.com/" target="_blank" rel="noreferrer">Ver</a>
-            
+              <a href="https://www.premisetech.com/"
+                 target="_blank" rel="noreferrer">Ver proyecto</a>
             </div>
           </div>
         </article>
@@ -125,41 +143,46 @@
         <article class="project-card">
           <div class="project-image">Music Go Bang</div>
           <div class="project-content">
-           <h3>SEO, Frontend Web Developer & Content Manager</h3>
-            
-            <p>Proyectos desde cero. Desarrollo de webs accesibles (WCAG) y centradas en UX con HTML5, CSS3, JS, Bootstrap y Ajax. 
-                Uso de IA para auditorías de accesibilidad, alt text y optimización por A/B testing. Control de versiones con GitHub.</p>
-            <div class="tags">
-             
-            </div>
+            <h3>SEO, Frontend Web Developer &amp; Content Manager</h3>
+            <p>
+              Desarrollo de webs accesibles y centradas en UX con HTML5, CSS3,
+              JavaScript, Bootstrap y Ajax. Control de versiones con GitHub.
+            </p>
             <div class="project-links">
-
-              <a href="https://arasancor.github.io/MusicGoBang/" target="_blank" rel="noreferrer">GitHub</a>
+              <a href="https://arasancor.github.io/MusicGoBang/"
+                 target="_blank" rel="noreferrer">Ver proyecto</a>
             </div>
           </div>
         </article>
 
         <article class="project-card">
-          <div class="project-image">BROCKEN TOMB</div>
+          <div class="project-image">BROKEN TOMB</div>
           <div class="project-content">
             <h3>Redactora y crítica musical</h3>
-           
-            <p>Especializada en rock (clásico, hard, alternativo, metal). Creación de reseñas optimizadas para SEO,
-                 crónicas de conciertos y contenido editorial que capta la energía musical y conecta con la comunidad rockera. Uso de IA para investigación, documentación y optimización de contenido.</p>
-
+            <p>
+              Especializada en rock clásico, hard rock, alternativo y metal.
+              Creación de reseñas optimizadas para SEO, crónicas de conciertos
+              y contenido editorial.
+            </p>
             <div class="project-links">
-              <a href="https://www.brokentombmagazine.com/?s=VIOLET+WOLFF" target="_blank" rel="noreferrer">Ver</a>
-           
+              <a href="https://www.brokentombmagazine.com/?s=VIOLET+WOLFF"
+                 target="_blank" rel="noreferrer">Ver artículos</a>
             </div>
           </div>
         </article>
-
       </div>
     </section>
   </main>
 
   <footer id="contacto">
-    <p>¿Quieres trabajar conmigo? <a href="mailto:yessworkinf@gmail.com">Escríbeme</a></p>
+    <p>
+      ¿Quieres trabajar conmigo?
+      <a href="mailto:yessworkinf@gmail.com">Escríbeme</a>
+    </p>
   </footer>
+
+  <script src="../js/menu.js" >
+
+  </script>
 </body>
 </html>
