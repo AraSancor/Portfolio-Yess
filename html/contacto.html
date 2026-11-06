@@ -3,97 +3,162 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ponte en contacto conmigo para conversar sobre proyectos y colaboraciones.">
-  <title>Contacto | Mi portafolio</title>
-   <link rel="icon" type="image/jpg" href="../img/avatarARA.jpg">
+  <meta name="theme-color" content="#6d28d9">
+  <title>Contacto | Yessyca Santillan</title>
+  <link rel="icon" type="image/jpg" href="../img/avatarARA.jpg" />
   <link rel="stylesheet" href="../css/contacto.css">
-
+  
 </head>
 
 <body>
-  <header>
-    <div class="barra-navegacion">
-      <a class="logo" href="index.html">Yessyca Santillan</a>
+  <header class="navbar">
+    <nav class="container nav-inner" aria-label="Navegación principal">
+      <a class="brand" href="#" aria-label="Nébula Studio, inicio">
+        <span class="brand-mark" aria-hidden="true">YS</span>
+        <span>Frontend Developer</span>
+      </a>
 
-      <nav aria-label="Navegación principal">
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./mi.html">Sobre mí</a></li>
-          <li><a href="./proyectos.html">Proyectos</a></li>
-          <li><a class="activo" href="contacto.html" aria-current="page">Contacto</a></li>
-        </ul>
-      </nav>
-    </div>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="nav-links"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="./mi.html">Sobre mí</a></li>
+        <li><a href="./proyectos.html">Proyectos</a></li>
+            <li><a class="nav-cta" href="#formulario">Hablemos</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
-    <section class="intro">
-      <p class="etiqueta">Contacto</p>
-      <h1>Hablemos de tu próximo proyecto.</h1>
-      <p>
-        ¿Tienes una idea, una colaboración o simplemente quieres saludar?
-        Escríbeme y te responderé lo antes posible.
-      </p>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="container hero-content">
+    
+        <h1 id="page-title">Hagamos algo increíble.</h1>
+        <p>
+          ¿Tienes una idea, una pregunta o un proyecto en mente?
+         
+        </p>
+      </div>
     </section>
 
-    <section class="contenido" aria-label="Información y formulario de contacto">
-      <div class="info-contacto">
-        <h2>También puedes encontrarme aquí</h2>
-        <p>Elige el medio que te resulte más cómodo para ponerte en contacto.</p>
+    <section class="contact-section" id="contacto">
+      <div class="container contact-grid">
+        <aside class="contact-info" aria-labelledby="info-title">
+          <h2 id="info-title">Ponte en contacto</h2>
+          <p>
+            Me encantará conocer tu proyecto.  
+          </p>
 
-        <div class="datos">
-          <div class="dato">
-            <strong>Correo electrónico</strong>
-            <a href="yessworkinf@gmail.com">yessworkinf@gmail.com</a>
-          </div>
+          <ul class="info-list">
+            <li class="info-item">
+              <span class="info-icon" aria-hidden="true">✉</span>
+              <div>
+                <strong>Correo electrónico</strong>
+                <a href="mailto:yessworkinf@gmail.com">yessworkinf@gmail.com</a>
+              </div>
+            </li>
 
-          <div class="dato">
-            <strong>LinkedIn</strong>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-             https://www.linkedin.com/in/yessworkinf/
-            </a>
-          </div>
+            <li class="info-item">
+              <span class="info-icon" aria-hidden="true">in</span>
+              <div>
+                <strong>Linkedin</strong>
+                <a href="https://www.linkedin.com/in/yessworkinf/" target="_blank">https://www.linkedin.com/in/yessworkinf/</a>
+              </div>
+            </li>
 
-          <div class="dato">
-            <strong>GiHub</strong>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-             https://github.com/AraSancor
-            </a>
-          </div>
+            <li class="info-item">
+              <span class="info-icon" aria-hidden="true">⌖</span>
+              <div>
+                <strong>Ubicación</strong>
+                <span>España<br>Trabajo remoto</span>
+              </div>
+            </li>
+          </ul>
+        </aside>
 
-          <div class="dato">
-            <strong>Ubicación</strong>
-            <span>España</span>
-          </div>
-        </div>
+        <section class="contact-form" id="formulario" aria-labelledby="form-title">
+          <h2 id="form-title">Envíame un mensaje</h2>
+          <p class="form-intro">Te responderé lo pronto posible.</p>
+
+          <form action="#" method="post">
+            <div class="form-grid">
+              <div class="field">
+                <label for="nombre">Nombre</label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="Tu nombre"
+                  autocomplete="name"
+                  required
+                >
+              </div>
+
+              <div class="field">
+                <label for="email">Correo electrónico</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="tu@email.com"
+                  autocomplete="email"
+                  required
+                >
+              </div>
+
+              <div class="field field-full">
+                <label for="asunto">Asunto</label>
+                <input
+                  type="text"
+                  id="asunto"
+                  name="asunto"
+                  placeholder="¿En qué podemos ayudarte?"
+                  required
+                >
+              </div>
+
+              <div class="field field-full">
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                  id="mensaje"
+                  name="mensaje"
+                  placeholder="Cuéntanos un poco sobre tu proyecto..."
+                  required
+                ></textarea>
+              </div>
+
+              <div class="field field-full">
+                <button class="submit-button" type="submit">
+                  Enviar mensaje <span aria-hidden="true">→</span>
+                </button>
+                <p class="form-note">
+                  Al enviar este formulario aceptas que usemos tus datos
+                  únicamente para responder a tu consulta.
+                </p>
+              </div>
+            </div>
+          </form>
+        </section>
       </div>
-
-      <form class="formulario" action="mailto:hola@tudominio.com" method="post" enctype="text/plain">
-        <h2>Envíame un mensaje</h2>
-        <p>Completa el formulario y cuéntame un poco sobre lo que tienes en mente.</p>
-
-        <div class="campo">
-          <label for="nombre">Nombre</label>
-          <input id="nombre" name="nombre" type="text" autocomplete="name" required>
-        </div>
-
-        <div class="campo">
-          <label for="correo">Correo electrónico</label>
-          <input id="correo" name="correo" type="email" autocomplete="email" required>
-        </div>
-
-        <div class="campo">
-          <label for="mensaje">Mensaje</label>
-          <textarea id="mensaje" name="mensaje" required></textarea>
-        </div>
-
-        <button type="submit">Enviar mensaje</button>
-      </form>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Yessyca Santillan. Hecho con dedicación.</p>
+    <div class="container">© 2026 Yessyca Santillan. Hecho con creatividad.</div>
   </footer>
+
+  <script src="../js/menu.js">
+
+  </script>
 </body>
 </html>
